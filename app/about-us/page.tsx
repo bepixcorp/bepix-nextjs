@@ -1546,8 +1546,8 @@ export default function AboutUs() {
       {/* Section 8: Meet Our Community */}
       <section style={{
         padding: '100px 0',
-        background: 'linear-gradient(135deg, #FCB03A 0%, #FF7426 100%)',
-        color: 'white',
+        background: 'white',
+        color: 'var(--accent)',
         textAlign: 'center',
         position: 'relative'
       }}>
@@ -1562,7 +1562,7 @@ export default function AboutUs() {
           <p style={{ 
             fontSize: '1.25rem', 
             marginBottom: '2.5rem',
-            color: 'rgba(255, 255, 255, 0.9)',
+            color: 'var(--text-secondary)',
             maxWidth: '600px',
             margin: '0 auto 2.5rem',
             lineHeight: '1.6'

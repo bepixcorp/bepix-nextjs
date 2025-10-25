@@ -26,14 +26,20 @@ export default function Navigation() {
           width: '100%'
         }}>
           <Link href="/" style={{
-            fontSize: '1.75rem',
-            fontWeight: '800',
-            color: 'var(--accent)',
             textDecoration: 'none',
-            transition: 'color 0.3s ease',
-            flex: '0 0 auto'
+            transition: 'opacity 0.3s ease',
+            flex: '0 0 auto',
+            display: 'flex',
+            alignItems: 'center'
           }}>
-            BePix
+            <img 
+              src="/logo.svg" 
+              alt="BePix Logo" 
+              style={{
+                height: '40px',
+                width: 'auto'
+              }}
+            />
           </Link>
           
           {/* Desktop Menu */}
@@ -89,14 +95,14 @@ export default function Navigation() {
           {/* Contact Button */}
           <div style={{ flex: '0 0 auto' }}>
             <Link href="/contact" style={{
-              background: 'var(--secondary)',
-              color: 'var(--accent)',
+              background: 'linear-gradient(135deg, #FCB03A 0%, #FF7426 100%)',
+              color: 'white',
               fontWeight: '600',
               textDecoration: 'none',
               padding: '0.75rem 1.5rem',
               borderRadius: '8px',
               transition: 'all 0.3s ease',
-              boxShadow: 'var(--shadow)'
+              boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)'
             }}>
               Contact Us
             </Link>
@@ -172,8 +178,8 @@ export default function Navigation() {
                 About Us
               </Link>
               <Link href="/contact" style={{
-                background: 'var(--secondary)',
-                color: 'var(--accent)',
+                background: 'linear-gradient(135deg, #FCB03A 0%, #FF7426 100%)',
+                color: 'white',
                 fontWeight: '600',
                 textDecoration: 'none',
                 padding: '0.75rem 1.5rem',

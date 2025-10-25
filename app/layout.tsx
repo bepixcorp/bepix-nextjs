@@ -8,6 +8,9 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata = {
   title: 'BePix - Professional Services',
   description: 'Professional services and solutions for your business needs',
+  icons: {
+    icon: '/favicon.svg',
+  },
 }
 
 export default function RootLayout({

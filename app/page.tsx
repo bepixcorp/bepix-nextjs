@@ -275,7 +275,7 @@ export default function Home() {
       </section>
 
       {/* Section 2: Our Services */}
-      <section style={{ padding: '100px 0', background: 'white' }}>
+      <section style={{ padding: '100px 0', background: '#F8F7F5' }}>
         <div className="container">
           <div style={{ maxWidth: '900px', margin: '0 auto', textAlign: 'center', padding: '0 2rem' }}>
             <h2 style={{
@@ -561,7 +561,7 @@ export default function Home() {
       </section>
 
       {/* Section 3: Our Core Focus */}
-      <section style={{ padding: '100px 0', background: '#F8F7F5' }}>
+      <section style={{ padding: '100px 0', background: 'white' }}>
         <div className="container">
           <h2 style={{
             fontSize: '2.5rem',
@@ -763,8 +763,8 @@ export default function Home() {
       {/* Section 3: Join the Ecosystem */}
       <section style={{
         padding: '100px 0',
-        background: 'linear-gradient(135deg, #FCB03A 0%, #FF7426 100%)',
-        color: 'white',
+        background: '#F8F7F5',
+        color: 'var(--accent)',
         textAlign: 'center',
         position: 'relative'
       }}>
@@ -780,7 +780,7 @@ export default function Home() {
           <p style={{ 
             fontSize: '1.25rem', 
             marginBottom: '2.5rem',
-            color: 'rgba(255, 255, 255, 0.9)',
+            color: 'var(--text-secondary)',
             maxWidth: '600px',
             margin: '0 auto 2.5rem',
              lineHeight: '1.6',
