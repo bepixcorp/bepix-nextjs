@@ -92,7 +92,7 @@ export default function Footer() {
             </h4>
             <ul style={{ listStyle: 'none', padding: 0 }}>
               <li style={{ marginBottom: '0.5rem' }}>
-                <Link href="/about" style={{
+                <Link href="/about-us" style={{
                   color: 'rgba(255, 255, 255, 0.8)',
                   textDecoration: 'none',
                   transition: 'color 0.3s ease'

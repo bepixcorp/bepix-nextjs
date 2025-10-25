@@ -55,7 +55,7 @@ export default function Home() {
               <p style={{ fontSize: '1.125rem', color: 'var(--text-secondary)', marginBottom: '2rem', lineHeight: '1.6' }}>
                 BePix is not just a company—it's an ecosystem of creators, designers, developers, architects, strategists, engineers, and storytellers working together to bring ideas to life.
               </p>
-              <Link href="/about" style={{
+              <Link href="/about-us" style={{
                 color: 'var(--secondary)',
                 textDecoration: 'none',
                 fontWeight: '600',

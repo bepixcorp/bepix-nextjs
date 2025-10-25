@@ -74,7 +74,7 @@ export default function Navigation() {
             }}>
               Work
             </Link>
-            <Link href="/about" style={{
+            <Link href="/about-us" style={{
               color: 'var(--text-secondary)',
               fontWeight: '500',
               textDecoration: 'none',
@@ -82,7 +82,7 @@ export default function Navigation() {
               position: 'relative',
               transition: 'color 0.3s ease'
             }}>
-              About
+              About Us
             </Link>
           </div>
           
@@ -162,14 +162,14 @@ export default function Navigation() {
               }}>
                 Work
               </Link>
-              <Link href="/about" style={{
+              <Link href="/about-us" style={{
                 color: 'var(--text-secondary)',
                 fontWeight: '500',
                 textDecoration: 'none',
                 padding: '0.75rem 0',
                 transition: 'color 0.3s ease'
               }}>
-                About
+                About Us
               </Link>
               <Link href="/contact" style={{
                 background: 'var(--secondary)',

@@ -46,8 +46,8 @@ npm run dev
 │   ├── globals.css          # Global styles
 │   ├── layout.tsx           # Root layout
 │   ├── page.tsx             # Homepage
-│   ├── about/
-│   │   └── page.tsx         # About page
+│   ├── about-us/
+│   │   └── page.tsx         # About Us page
 │   ├── services/
 │   │   └── page.tsx         # Services page
 │   └── contact/
@@ -77,7 +77,7 @@ The website uses a blue color scheme. You can customize colors in `app/globals.c
 - Accent: `#764ba2` (Purple gradient)
 
 ### Content
-- Update company information in the About page
+- Update company information in the About Us page
 - Modify services in the Services page
 - Change contact information in the Contact page and Footer
 
