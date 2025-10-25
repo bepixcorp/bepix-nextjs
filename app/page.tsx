@@ -8,7 +8,7 @@ export default function Home() {
       {/* Hero Section */}
       <section style={{
         background: 'linear-gradient(135deg, var(--primary) 0%, #F8F7F5 100%)',
-        padding: '120px 0',
+        padding: 'clamp(80px, 10vw, 120px) 0',
         textAlign: 'center',
         position: 'relative',
         overflow: 'hidden'
@@ -41,17 +41,17 @@ export default function Home() {
       {/* Section 2: About Our BePix Community */}
       <section style={{ padding: '100px 0', background: 'white' }}>
         <div className="container">
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(500px, 1fr))', gap: '4rem', alignItems: 'center' }}>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '4rem', alignItems: 'center' }}>
             <div>
               <h2 style={{
-                fontSize: '2.5rem',
+                fontSize: 'clamp(1.75rem, 4vw, 2.5rem)',
                 fontWeight: '700',
                 marginBottom: '1.5rem',
                 color: 'var(--accent)',
               }}>
                 A Living Ecosystem of Innovators
               </h2>
-              <p style={{ fontSize: '1.125rem', color: 'var(--text-secondary)', marginBottom: '2rem', lineHeight: '1.6' }}>
+              <p style={{ fontSize: 'clamp(1rem, 2.5vw, 1.125rem)', color: 'var(--text-secondary)', marginBottom: '2rem', lineHeight: '1.6' }}>
                 BePix is not just a company—it's an ecosystem of creators, designers, developers, architects, strategists, engineers, and storytellers working together to bring ideas to life.
               </p>
               <Link href="/about-us" style={{
@@ -70,7 +70,7 @@ export default function Home() {
                 Learn More →
               </Link>
             </div>
-            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '2rem' }}>
+            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(150px, 1fr))', gap: '1.5rem' }}>
                 <div style={{ 
                   textAlign: 'center',
                   padding: '1.5rem',
@@ -232,7 +232,7 @@ export default function Home() {
         <div className="container">
           <div style={{ maxWidth: '900px', margin: '0 auto', textAlign: 'center', padding: '0 2rem' }}>
             <h2 style={{
-              fontSize: '2.5rem',
+              fontSize: 'clamp(1.75rem, 4vw, 2.5rem)',
               fontWeight: '700',
               marginBottom: '1rem',
               color: 'var(--accent)',
@@ -240,7 +240,7 @@ export default function Home() {
               Our Services
             </h2>
             <p style={{
-              fontSize: '1.25rem',
+              fontSize: 'clamp(1rem, 2.5vw, 1.25rem)',
               color: 'var(--text-secondary)',
               marginBottom: '3rem',
               lineHeight: '1.6'
@@ -250,14 +250,14 @@ export default function Home() {
             
             <div style={{ 
               display: 'grid', 
-              gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', 
-              gap: '2rem',
+              gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', 
+              gap: '1.5rem',
               maxWidth: '1000px',
               margin: '0 auto'
             }}>
               <div style={{
                 background: 'white',
-                padding: '2.5rem',
+                padding: 'clamp(1.5rem, 4vw, 2.5rem)',
                 borderRadius: '20px',
                 textAlign: 'center',
                 border: '1px solid #E2E8F0',
@@ -298,7 +298,7 @@ export default function Home() {
               
               <div style={{
                 background: 'white',
-                padding: '2.5rem',
+                padding: 'clamp(1.5rem, 4vw, 2.5rem)',
                 borderRadius: '20px',
                 textAlign: 'center',
                 border: '1px solid #E2E8F0',
@@ -341,7 +341,7 @@ export default function Home() {
               
               <div style={{
                 background: 'white',
-                padding: '2.5rem',
+                padding: 'clamp(1.5rem, 4vw, 2.5rem)',
                 borderRadius: '20px',
                 textAlign: 'center',
                 border: '1px solid #E2E8F0',
@@ -384,7 +384,7 @@ export default function Home() {
               
               <div style={{
                 background: 'white',
-                padding: '2.5rem',
+                padding: 'clamp(1.5rem, 4vw, 2.5rem)',
                 borderRadius: '20px',
                 textAlign: 'center',
                 border: '1px solid #E2E8F0',
@@ -426,7 +426,7 @@ export default function Home() {
               
               <div style={{
                 background: 'white',
-                padding: '2.5rem',
+                padding: 'clamp(1.5rem, 4vw, 2.5rem)',
                 borderRadius: '20px',
                 textAlign: 'center',
                 border: '1px solid #E2E8F0',
@@ -469,7 +469,7 @@ export default function Home() {
               
               <div style={{
                 background: 'white',
-                padding: '2.5rem',
+                padding: 'clamp(1.5rem, 4vw, 2.5rem)',
                 borderRadius: '20px',
                 textAlign: 'center',
                 border: '1px solid #E2E8F0',
@@ -517,7 +517,7 @@ export default function Home() {
       <section style={{ padding: '100px 0', background: 'white' }}>
         <div className="container">
           <h2 style={{
-            fontSize: '2.5rem',
+            fontSize: 'clamp(1.75rem, 4vw, 2.5rem)',
             fontWeight: '700',
             textAlign: 'center',
             marginBottom: '4rem',
@@ -539,10 +539,10 @@ export default function Home() {
             <span>Grow</span>
           </h2>
           
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: '2rem' }}>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '1.5rem' }}>
             <div style={{
               background: 'white',
-              padding: '2rem',
+              padding: 'clamp(1.5rem, 3vw, 2rem)',
               borderRadius: '16px',
               boxShadow: '0 4px 20px rgba(0, 0, 0, 0.08)',
               textAlign: 'center',
@@ -585,7 +585,7 @@ export default function Home() {
             
             <div style={{
               background: 'white',
-              padding: '2rem',
+              padding: 'clamp(1.5rem, 3vw, 2rem)',
               borderRadius: '16px',
               boxShadow: '0 4px 20px rgba(0, 0, 0, 0.08)',
               textAlign: 'center',
@@ -628,7 +628,7 @@ export default function Home() {
             
             <div style={{
               background: 'white',
-              padding: '2rem',
+              padding: 'clamp(1.5rem, 3vw, 2rem)',
               borderRadius: '16px',
               boxShadow: '0 4px 20px rgba(0, 0, 0, 0.08)',
               textAlign: 'center',
@@ -669,7 +669,7 @@ export default function Home() {
             
             <div style={{
               background: 'white',
-              padding: '2rem',
+              padding: 'clamp(1.5rem, 3vw, 2rem)',
               borderRadius: '16px',
               boxShadow: '0 4px 20px rgba(0, 0, 0, 0.08)',
               textAlign: 'center',
@@ -715,7 +715,7 @@ export default function Home() {
 
       {/* Section 3: Join the Ecosystem */}
       <section style={{
-        padding: '100px 0',
+        padding: 'clamp(60px, 8vw, 100px) 0',
         background: '#F8F7F5',
         color: 'var(--accent)',
         textAlign: 'center',
@@ -723,7 +723,7 @@ export default function Home() {
       }}>
         <div className="container">
           <h2 style={{
-            fontSize: '2.5rem',
+            fontSize: 'clamp(1.75rem, 4vw, 2.5rem)',
             fontWeight: '700',
             marginBottom: '1.5rem',
             fontFamily: 'Inter, sans-serif'
@@ -731,7 +731,7 @@ export default function Home() {
             Collaborate. Create. Evolve.
           </h2>
           <p style={{ 
-            fontSize: '1.25rem', 
+            fontSize: 'clamp(1rem, 2.5vw, 1.25rem)', 
             marginBottom: '2.5rem',
             color: 'var(--text-secondary)',
             maxWidth: '600px',
