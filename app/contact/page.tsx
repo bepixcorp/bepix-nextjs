@@ -21,7 +21,6 @@ export default function Contact() {
               fontWeight: '700',
               marginBottom: '1.5rem',
               color: 'var(--accent)',
-              fontFamily: 'Inter, sans-serif'
             }}>
               Let's Create Something Great Together
             </h1>
@@ -68,7 +67,7 @@ export default function Contact() {
                 fontWeight: '600',
                 marginBottom: '1.5rem',
                 color: 'var(--accent)',
-                fontFamily: 'Inter, sans-serif',
+,
                 textAlign: 'center'
               }}>
                 Contact Information
@@ -216,7 +215,7 @@ export default function Contact() {
                 fontWeight: '600',
                 marginBottom: '1.5rem',
                 color: 'var(--accent)',
-                fontFamily: 'Inter, sans-serif',
+,
                 textAlign: 'center'
               }}>
                 Send us a Message

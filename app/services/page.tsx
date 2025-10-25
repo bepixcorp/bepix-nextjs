@@ -20,7 +20,6 @@ export default function Services() {
               fontWeight: '700',
               marginBottom: '1.5rem',
               color: 'var(--accent)',
-              fontFamily: 'Inter, sans-serif'
             }}>
               Empowering Businesses with Design, Technology & Growth
             </h1>

@@ -20,7 +20,6 @@ export default function Home() {
               fontWeight: '700',
               marginBottom: '1.5rem',
               color: 'var(--accent)',
-              fontFamily: 'Inter, sans-serif'
             }}>
               Beyond Pixel. Beyond Creativity.
             </h1>
@@ -48,7 +47,6 @@ export default function Home() {
                 fontWeight: '700',
                 marginBottom: '1.5rem',
                 color: 'var(--accent)',
-                fontFamily: 'Inter, sans-serif'
               }}>
                 A Living Ecosystem of Innovators
               </h2>

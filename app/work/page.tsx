@@ -20,7 +20,6 @@ export default function Work() {
               fontWeight: '700',
               marginBottom: '1.5rem',
               color: 'var(--accent)',
-              fontFamily: 'Inter, sans-serif'
             }}>
               Our Work — Where Creativity Meets Functionality
             </h1>

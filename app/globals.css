@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+/* Inter font is loaded via Next.js in layout.tsx */
 
 :root {
   --primary: #FFF6E9;
@@ -22,30 +22,12 @@ html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   line-height: 1.6;
   color: var(--text-primary);
   background-color: var(--primary);
 }
 
-/* Ensure Inter font is applied to all text elements */
-* {
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-  font-weight: 600;
-}
-
-p, span, div, a, button, input, textarea, label, li, ul, ol, td, th, table, caption, strong, em, small, code, pre {
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-}
-
-/* Additional elements to ensure Inter font coverage */
-.container, .premium-card, .premium-icon, .premium-grid, .premium-grid-sm {
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-}
+/* Font is handled by Next.js Inter font in layout.tsx */
 
 /* Contact page responsive design */
 @media (max-width: 768px) {
