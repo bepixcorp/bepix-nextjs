@@ -290,7 +290,7 @@ export default function AboutUs() {
                 background: '#C6FB50',
                 padding: '3rem 2rem',
                 borderRadius: '20px',
-                color: 'white',
+                color: 'black',
                 textAlign: 'center',
                 boxShadow: '0 12px 40px rgba(102, 126, 234, 0.3)',
                 transition: 'all 0.3s ease',
@@ -310,7 +310,7 @@ export default function AboutUs() {
                   fontSize: '4rem', 
                   fontWeight: '800', 
                   marginBottom: '1rem',
-                  textShadow: '0 4px 8px rgba(0, 0, 0, 0.2)'
+                  textShadow: '0 2px 4px rgba(0, 0, 0, 0.1)'
                 }}>
                   60+
                 </div>
@@ -318,7 +318,7 @@ export default function AboutUs() {
                   fontSize: '1.5rem', 
                   fontWeight: '600', 
                   marginBottom: '1rem',
-                  textShadow: '0 2px 4px rgba(0, 0, 0, 0.2)'
+                  textShadow: '0 1px 2px rgba(0, 0, 0, 0.1)'
                 }}>
                   Professionals
                 </h3>
@@ -335,7 +335,7 @@ export default function AboutUs() {
                 background: '#C6FB50',
                 padding: '3rem 2rem',
                 borderRadius: '20px',
-                color: 'white',
+                color: 'black',
                 textAlign: 'center',
                 boxShadow: '0 12px 40px rgba(240, 147, 251, 0.3)',
                 transition: 'all 0.3s ease',
@@ -355,7 +355,7 @@ export default function AboutUs() {
                   fontSize: '4rem', 
                   fontWeight: '800', 
                   marginBottom: '1rem',
-                  textShadow: '0 4px 8px rgba(0, 0, 0, 0.2)'
+                  textShadow: '0 2px 4px rgba(0, 0, 0, 0.1)'
                 }}>
                   20+
                 </div>
@@ -363,7 +363,7 @@ export default function AboutUs() {
                   fontSize: '1.5rem', 
                   fontWeight: '600', 
                   marginBottom: '1rem',
-                  textShadow: '0 2px 4px rgba(0, 0, 0, 0.2)'
+                  textShadow: '0 1px 2px rgba(0, 0, 0, 0.1)'
                 }}>
                   Projects
                 </h3>
@@ -380,7 +380,7 @@ export default function AboutUs() {
                 background: '#C6FB50',
                 padding: '3rem 2rem',
                 borderRadius: '20px',
-                color: 'white',
+                color: 'black',
                 textAlign: 'center',
                 boxShadow: '0 12px 40px rgba(79, 172, 254, 0.3)',
                 transition: 'all 0.3s ease',
@@ -400,7 +400,7 @@ export default function AboutUs() {
                   fontSize: '4rem', 
                   fontWeight: '800', 
                   marginBottom: '1rem',
-                  textShadow: '0 4px 8px rgba(0, 0, 0, 0.2)'
+                  textShadow: '0 2px 4px rgba(0, 0, 0, 0.1)'
                 }}>
                   15+
                 </div>
@@ -408,7 +408,7 @@ export default function AboutUs() {
                   fontSize: '1.5rem', 
                   fontWeight: '600', 
                   marginBottom: '1rem',
-                  textShadow: '0 2px 4px rgba(0, 0, 0, 0.2)'
+                  textShadow: '0 1px 2px rgba(0, 0, 0, 0.1)'
                 }}>
                   Clients
                 </h3>
