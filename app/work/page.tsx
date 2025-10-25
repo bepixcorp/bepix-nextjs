@@ -37,8 +37,62 @@ export default function Work() {
         </div>
       </section>
 
-      {/* Section 1: Featured Projects */}
+      {/* Section 1: Empowering Businesses */}
       <section style={{ padding: '100px 0', background: 'white' }}>
+        <div className="container">
+          <div style={{ maxWidth: '900px', margin: '0 auto', textAlign: 'center' }}>
+            <h2 style={{
+              fontSize: '3.5rem',
+              fontWeight: '700',
+              marginBottom: '1.5rem',
+              color: 'var(--accent)',
+            }}>
+              Empowering Businesses with Design, Technology & Growth
+            </h2>
+            <p style={{
+              fontSize: '1.375rem',
+              color: 'var(--text-secondary)',
+              marginBottom: '2.5rem',
+              lineHeight: '1.6',
+              maxWidth: '700px',
+              margin: '0 auto 2.5rem'
+            }}>
+              At BePix, we combine creativity, development, and strategy to deliver impactful digital experiences. Our services are crafted to help startups, organizations, and enterprises design, build, and scale effectively.
+            </p>
+            <div style={{ display: 'flex', gap: '1.5rem', flexWrap: 'wrap', justifyContent: 'center' }}>
+              <Link href="/services" style={{
+                background: 'var(--secondary)',
+                color: 'var(--accent)',
+                padding: '1rem 2rem',
+                borderRadius: '8px',
+                textDecoration: 'none',
+                fontWeight: '600',
+                fontSize: '1.125rem',
+                transition: 'all 0.3s ease',
+                boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)'
+              }}>
+                Explore Services
+              </Link>
+              <Link href="/contact#get-in-touch" style={{
+                background: 'transparent',
+                color: 'var(--accent)',
+                padding: '1rem 2rem',
+                borderRadius: '8px',
+                textDecoration: 'none',
+                fontWeight: '600',
+                fontSize: '1.125rem',
+                border: '2px solid var(--accent)',
+                transition: 'all 0.3s ease'
+              }}>
+                Get a Quote
+              </Link>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Section 2: Featured Projects */}
+      <section style={{ padding: '100px 0', background: '#F8F7F5' }}>
         <div className="container">
           <h2 style={{
             fontSize: '2.5rem',
@@ -186,7 +240,7 @@ export default function Work() {
         </div>
       </section>
 
-      {/* Section 2: Our Expertise */}
+      {/* Section 3: Our Expertise */}
       <section style={{ padding: '100px 0', background: '#F8F7F5' }}>
         <div className="container">
           <h2 style={{
@@ -337,7 +391,7 @@ export default function Work() {
         </div>
       </section>
 
-      {/* Section 3: Collaboration Process */}
+      {/* Section 4: Collaboration Process */}
       <section style={{ padding: '100px 0', background: 'white' }}>
         <div className="container">
           <h2 style={{
