@@ -14,7 +14,7 @@ export default function Work() {
         overflow: 'hidden'
       }}>
         <div className="container">
-          <div style={{ maxWidth: '900px', margin: '0 auto' }}>
+          <div style={{ maxWidth: '900px', margin: '0 auto', padding: '0 2rem' }}>
             <h1 style={{
               fontSize: '3.5rem',
               fontWeight: '700',
@@ -40,7 +40,7 @@ export default function Work() {
       {/* Section 1: Empowering Businesses */}
       <section style={{ padding: '100px 0', background: 'white' }}>
         <div className="container">
-          <div style={{ maxWidth: '900px', margin: '0 auto', textAlign: 'center' }}>
+          <div style={{ maxWidth: '900px', margin: '0 auto', textAlign: 'center', padding: '0 2rem' }}>
             <h2 style={{
               fontSize: '3.5rem',
               fontWeight: '700',
@@ -61,28 +61,32 @@ export default function Work() {
             </p>
             <div style={{ display: 'flex', gap: '1.5rem', flexWrap: 'wrap', justifyContent: 'center' }}>
               <Link href="/services" style={{
-                background: 'var(--secondary)',
-                color: 'var(--accent)',
+                background: 'linear-gradient(135deg, #FCB03A 0%, #FF7426 100%) !important',
+                color: 'white !important',
                 padding: '1rem 2rem',
                 borderRadius: '8px',
                 textDecoration: 'none',
                 fontWeight: '600',
                 fontSize: '1.125rem',
                 transition: 'all 0.3s ease',
-                boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)'
+                boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)',
+                display: 'inline-block',
+                border: 'none'
               }}>
                 Explore Services
               </Link>
               <Link href="/contact#get-in-touch" style={{
-                background: 'transparent',
-                color: 'var(--accent)',
+                background: 'linear-gradient(135deg, #FCB03A 0%, #FF7426 100%) !important',
+                color: 'white !important',
                 padding: '1rem 2rem',
                 borderRadius: '8px',
                 textDecoration: 'none',
                 fontWeight: '600',
                 fontSize: '1.125rem',
-                border: '2px solid var(--accent)',
-                transition: 'all 0.3s ease'
+                transition: 'all 0.3s ease',
+                boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)',
+                display: 'inline-block',
+                border: 'none'
               }}>
                 Get a Quote
               </Link>
@@ -128,7 +132,7 @@ export default function Work() {
               <div style={{ 
                 width: '80px', 
                 height: '80px', 
-                background: '#C6FB50',
+                background: 'linear-gradient(135deg, #FCB03A 0%, #FF7426 100%)',
                 borderRadius: '20px',
                 margin: '0 auto 1.5rem',
                 display: 'flex',
@@ -136,7 +140,7 @@ export default function Work() {
                 justifyContent: 'center',
                 boxShadow: '0 8px 25px rgba(0, 0, 0, 0.1)'
               }}>
-                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#6B7280" strokeWidth="2">
+                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2">
                   <rect x="2" y="3" width="20" height="14" rx="2" ry="2"/>
                   <line x1="8" y1="21" x2="16" y2="21"/>
                   <line x1="12" y1="17" x2="12" y2="21"/>
@@ -172,7 +176,7 @@ export default function Work() {
               <div style={{ 
                 width: '80px', 
                 height: '80px', 
-                background: '#C6FB50',
+                background: 'linear-gradient(135deg, #FCB03A 0%, #FF7426 100%)',
                 borderRadius: '20px',
                 margin: '0 auto 1.5rem',
                 display: 'flex',
@@ -180,7 +184,7 @@ export default function Work() {
                 justifyContent: 'center',
                 boxShadow: '0 8px 25px rgba(0, 0, 0, 0.1)'
               }}>
-                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#6B7280" strokeWidth="2">
+                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2">
                   <rect x="2" y="3" width="20" height="14" rx="2" ry="2"/>
                   <line x1="8" y1="21" x2="16" y2="21"/>
                   <line x1="12" y1="17" x2="12" y2="21"/>
@@ -216,7 +220,7 @@ export default function Work() {
               <div style={{ 
                 width: '80px', 
                 height: '80px', 
-                background: '#C6FB50',
+                background: 'linear-gradient(135deg, #FCB03A 0%, #FF7426 100%)',
                 borderRadius: '20px',
                 margin: '0 auto 1.5rem',
                 display: 'flex',
@@ -224,7 +228,7 @@ export default function Work() {
                 justifyContent: 'center',
                 boxShadow: '0 8px 25px rgba(0, 0, 0, 0.1)'
               }}>
-                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#6B7280" strokeWidth="2">
+                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2">
                   <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
                   <path d="M8 12l2 2 4-4"/>
                 </svg>
@@ -241,7 +245,7 @@ export default function Work() {
       </section>
 
       {/* Section 3: Our Expertise */}
-      <section style={{ padding: '100px 0', background: '#F8F7F5' }}>
+      <section style={{ padding: '100px 0', background: 'white' }}>
         <div className="container">
           <h2 style={{
             fontSize: '2.5rem',
@@ -278,7 +282,7 @@ export default function Work() {
               <div style={{ 
                 width: '80px', 
                 height: '80px', 
-                background: '#C6FB50',
+                background: 'linear-gradient(135deg, #FCB03A 0%, #FF7426 100%)',
                 borderRadius: '20px',
                 margin: '0 auto 1.5rem',
                 display: 'flex',
@@ -286,7 +290,7 @@ export default function Work() {
                 justifyContent: 'center',
                 boxShadow: '0 8px 25px rgba(0, 0, 0, 0.1)'
               }}>
-                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#6B7280" strokeWidth="2">
+                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2">
                   <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/>
                 </svg>
               </div>
@@ -321,7 +325,7 @@ export default function Work() {
               <div style={{ 
                 width: '80px', 
                 height: '80px', 
-                background: '#C6FB50',
+                background: 'linear-gradient(135deg, #FCB03A 0%, #FF7426 100%)',
                 borderRadius: '20px',
                 margin: '0 auto 1.5rem',
                 display: 'flex',
@@ -329,7 +333,7 @@ export default function Work() {
                 justifyContent: 'center',
                 boxShadow: '0 8px 25px rgba(0, 0, 0, 0.1)'
               }}>
-                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#6B7280" strokeWidth="2">
+                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2">
                   <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
                   <circle cx="8.5" cy="8.5" r="1.5"/>
                   <polyline points="21,15 16,10 5,21"/>
@@ -366,7 +370,7 @@ export default function Work() {
               <div style={{ 
                 width: '80px', 
                 height: '80px', 
-                background: '#C6FB50',
+                background: 'linear-gradient(135deg, #FCB03A 0%, #FF7426 100%)',
                 borderRadius: '20px',
                 margin: '0 auto 1.5rem',
                 display: 'flex',
@@ -374,7 +378,7 @@ export default function Work() {
                 justifyContent: 'center',
                 boxShadow: '0 8px 25px rgba(0, 0, 0, 0.1)'
               }}>
-                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#6B7280" strokeWidth="2">
+                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2">
                   <line x1="18" y1="20" x2="18" y2="10"/>
                   <line x1="12" y1="20" x2="12" y2="4"/>
                   <line x1="6" y1="20" x2="6" y2="14"/>
@@ -392,7 +396,7 @@ export default function Work() {
       </section>
 
       {/* Section 4: Collaboration Process */}
-      <section style={{ padding: '100px 0', background: 'white' }}>
+      <section style={{ padding: '100px 0', background: '#F8F7F5' }}>
         <div className="container">
           <h2 style={{
             fontSize: '2.5rem',
@@ -410,7 +414,7 @@ export default function Work() {
               <div style={{
                 width: '80px',
                 height: '80px',
-                background: 'var(--secondary)',
+                background: 'linear-gradient(135deg, #FCB03A 0%, #FF7426 100%)',
                 color: 'var(--accent)',
                 borderRadius: '50%',
                 display: 'flex',
@@ -437,7 +441,7 @@ export default function Work() {
               <div style={{
                 width: '80px',
                 height: '80px',
-                background: 'var(--secondary)',
+                background: 'linear-gradient(135deg, #FCB03A 0%, #FF7426 100%)',
                 color: 'var(--accent)',
                 borderRadius: '50%',
                 display: 'flex',
@@ -463,7 +467,7 @@ export default function Work() {
               <div style={{
                 width: '80px',
                 height: '80px',
-                background: 'var(--secondary)',
+                background: 'linear-gradient(135deg, #FCB03A 0%, #FF7426 100%)',
                 color: 'var(--accent)',
                 borderRadius: '50%',
                 display: 'flex',
@@ -488,7 +492,7 @@ export default function Work() {
               <div style={{
                 width: '80px',
                 height: '80px',
-                background: 'var(--secondary)',
+                background: 'linear-gradient(135deg, #FCB03A 0%, #FF7426 100%)',
                 color: 'var(--accent)',
                 borderRadius: '50%',
                 display: 'flex',

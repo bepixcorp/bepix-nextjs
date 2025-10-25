@@ -2,7 +2,7 @@
 
 :root {
   --primary: #FFF6E9;
-  --secondary: #C6FB50;
+  --secondary: linear-gradient(135deg, #FCB03A 0%, #FF7426 100%);
   --accent: #2D3748;
   --text-primary: #1A202C;
   --text-secondary: #4A5568;
@@ -99,7 +99,7 @@ nav .nav-links a::after {
   left: 0;
   width: 0;
   height: 2px;
-  background: var(--secondary);
+  background: linear-gradient(135deg, #FCB03A 0%, #FF7426 100%);
   transition: width 0.3s ease;
 }
 
@@ -137,7 +137,7 @@ nav .nav-links a:hover::after {
   font-size: 4rem;
   font-weight: 800;
   margin-bottom: 1.5rem;
-  background: linear-gradient(135deg, var(--accent) 0%, var(--text-secondary) 100%);
+  background: linear-gradient(135deg, #FCB03A 0%, #FF7426 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -156,7 +156,7 @@ nav .nav-links a:hover::after {
 .btn {
   display: inline-block;
   padding: 16px 32px;
-  background: var(--secondary);
+  background: linear-gradient(135deg, #FCB03A 0%, #FF7426 100%);
   color: var(--accent);
   border-radius: 12px;
   font-weight: 600;
@@ -207,7 +207,7 @@ nav .nav-links a:hover::after {
   transform: translateX(-50%);
   width: 60px;
   height: 4px;
-  background: var(--secondary);
+  background: linear-gradient(135deg, #FCB03A 0%, #FF7426 100%);
   border-radius: 2px;
 }
 
@@ -362,7 +362,7 @@ nav .nav-links a:hover::after {
 .icon {
   width: 64px;
   height: 64px;
-  background: linear-gradient(135deg, var(--secondary) 0%, #B8F03A 100%);
+  background: linear-gradient(135deg, #FCB03A 0%, #FF7426 100%);
   border-radius: 16px;
   display: flex;
   align-items: center;
@@ -449,7 +449,7 @@ footer .social-links a {
 }
 
 footer .social-links a:hover {
-  background: var(--secondary);
+  background: linear-gradient(135deg, #FCB03A 0%, #FF7426 100%);
   color: var(--accent);
 }
 

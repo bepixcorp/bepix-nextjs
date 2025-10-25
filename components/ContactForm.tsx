@@ -339,7 +339,7 @@ export default function ContactForm() {
             width: '100%',
             background: isSubmitting 
               ? 'linear-gradient(135deg, #9CA3AF 0%, #6B7280 100%)'
-              : 'linear-gradient(135deg, var(--accent) 0%, #1A202C 100%)',
+              : 'linear-gradient(135deg, #FCB03A 0%, #FF7426 100%) !important',
             color: 'white',
             padding: '1rem 2rem',
             border: 'none',

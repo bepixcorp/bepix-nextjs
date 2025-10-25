@@ -15,7 +15,7 @@ export default function Contact() {
         overflow: 'hidden'
       }}>
         <div className="container">
-          <div style={{ maxWidth: '900px', margin: '0 auto' }}>
+          <div style={{ maxWidth: '900px', margin: '0 auto', padding: '0 2rem' }}>
             <h1 style={{
               fontSize: '3.5rem',
               fontWeight: '700',
@@ -39,7 +39,7 @@ export default function Contact() {
       </section>
 
       {/* Contact Form and Get in Touch Section - Side by Side */}
-      <section id="get-in-touch" style={{ padding: '100px 0', background: '#F8F7F5' }}>
+      <section id="get-in-touch" style={{ padding: '100px 0', background: 'white' }}>
         <div className="container">
           <h2 style={{
             fontSize: '2.5rem',
@@ -96,7 +96,7 @@ export default function Contact() {
                   <div style={{ 
                     width: '60px', 
                     height: '60px', 
-                    background: '#C6FB50',
+                    background: 'linear-gradient(135deg, #FCB03A 0%, #FF7426 100%)',
                     borderRadius: '16px',
                     margin: '0 auto 1rem',
                     display: 'flex',
@@ -104,7 +104,7 @@ export default function Contact() {
                     justifyContent: 'center',
                     boxShadow: '0 6px 20px rgba(0, 0, 0, 0.1)'
                   }}>
-                    <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#6B7280" strokeWidth="2">
+                    <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2">
                       <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
                       <polyline points="22,6 12,13 2,6"/>
                     </svg>
@@ -140,7 +140,7 @@ export default function Contact() {
                   <div style={{ 
                     width: '60px', 
                     height: '60px', 
-                    background: '#C6FB50',
+                    background: 'linear-gradient(135deg, #FCB03A 0%, #FF7426 100%)',
                     borderRadius: '16px',
                     margin: '0 auto 1rem',
                     display: 'flex',
@@ -148,7 +148,7 @@ export default function Contact() {
                     justifyContent: 'center',
                     boxShadow: '0 6px 20px rgba(0, 0, 0, 0.1)'
                   }}>
-                    <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#6B7280" strokeWidth="2">
+                    <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2">
                       <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
                     </svg>
                   </div>
@@ -183,7 +183,7 @@ export default function Contact() {
                   <div style={{ 
                     width: '60px', 
                     height: '60px', 
-                    background: '#C6FB50',
+                    background: 'linear-gradient(135deg, #FCB03A 0%, #FF7426 100%)',
                     borderRadius: '16px',
                     margin: '0 auto 1rem',
                     display: 'flex',
@@ -191,7 +191,7 @@ export default function Contact() {
                     justifyContent: 'center',
                     boxShadow: '0 6px 20px rgba(0, 0, 0, 0.1)'
                   }}>
-                    <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#6B7280" strokeWidth="2">
+                    <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2">
                       <circle cx="12" cy="12" r="10"/>
                       <line x1="2" y1="12" x2="22" y2="12"/>
                       <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
@@ -238,67 +238,199 @@ export default function Contact() {
             Start Your Project
           </h2>
           
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: '2rem', marginBottom: '3rem' }}>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '2rem', marginBottom: '3rem' }}>
             <div style={{
               background: 'white',
-              padding: '2rem',
-              borderRadius: '12px',
-              boxShadow: '0 4px 6px rgba(0, 0, 0, 0.05)',
-              textAlign: 'center'
+              padding: '2.5rem',
+              borderRadius: '16px',
+              boxShadow: '0 4px 20px rgba(0, 0, 0, 0.08)',
+              textAlign: 'center',
+              border: '1px solid #E2E8F0',
+              transition: 'all 0.3s ease',
+              cursor: 'pointer',
+              position: 'relative',
+              overflow: 'hidden'
+            }}
+            onMouseEnter={(e) => {
+              e.currentTarget.style.transform = 'translateY(-8px)';
+              e.currentTarget.style.boxShadow = '0 12px 40px rgba(0, 0, 0, 0.15)';
+            }}
+            onMouseLeave={(e) => {
+              e.currentTarget.style.transform = 'translateY(0)';
+              e.currentTarget.style.boxShadow = '0 4px 20px rgba(0, 0, 0, 0.08)';
             }}>
+              <div style={{ 
+                width: '80px', 
+                height: '80px', 
+                background: 'linear-gradient(135deg, #FCB03A 0%, #FF7426 100%)',
+                borderRadius: '20px',
+                margin: '0 auto 1.5rem',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                boxShadow: '0 8px 25px rgba(0, 0, 0, 0.1)'
+              }}>
+                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2">
+                  <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                </svg>
+              </div>
               <h3 style={{ fontSize: '1.25rem', fontWeight: '600', marginBottom: '1rem', color: 'var(--accent)' }}>
                 Discovery Call to Understand Goals
               </h3>
+              <p style={{ color: 'var(--text-secondary)', fontSize: '0.95rem', lineHeight: '1.5' }}>
+                We start with a comprehensive discussion to understand your vision, objectives, and requirements.
+              </p>
             </div>
             
             <div style={{
               background: 'white',
-              padding: '2rem',
-              borderRadius: '12px',
-              boxShadow: '0 4px 6px rgba(0, 0, 0, 0.05)',
-              textAlign: 'center'
+              padding: '2.5rem',
+              borderRadius: '16px',
+              boxShadow: '0 4px 20px rgba(0, 0, 0, 0.08)',
+              textAlign: 'center',
+              border: '1px solid #E2E8F0',
+              transition: 'all 0.3s ease',
+              cursor: 'pointer',
+              position: 'relative',
+              overflow: 'hidden'
+            }}
+            onMouseEnter={(e) => {
+              e.currentTarget.style.transform = 'translateY(-8px)';
+              e.currentTarget.style.boxShadow = '0 12px 40px rgba(0, 0, 0, 0.15)';
+            }}
+            onMouseLeave={(e) => {
+              e.currentTarget.style.transform = 'translateY(0)';
+              e.currentTarget.style.boxShadow = '0 4px 20px rgba(0, 0, 0, 0.08)';
             }}>
+              <div style={{ 
+                width: '80px', 
+                height: '80px', 
+                background: 'linear-gradient(135deg, #FCB03A 0%, #FF7426 100%)',
+                borderRadius: '20px',
+                margin: '0 auto 1.5rem',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                boxShadow: '0 8px 25px rgba(0, 0, 0, 0.1)'
+              }}>
+                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2">
+                  <path d="M9 12l2 2 4-4"/>
+                  <path d="M21 12c0 4.97-4.03 9-9 9s-9-4.03-9-9 4.03-9 9-9 9 4.03 9 9z"/>
+                  <path d="M12 2a10 10 0 1 1 0 20 10 10 0 0 1 0-20z"/>
+                </svg>
+              </div>
               <h3 style={{ fontSize: '1.25rem', fontWeight: '600', marginBottom: '1rem', color: 'var(--accent)' }}>
                 Custom Proposal and Timeline
               </h3>
+              <p style={{ color: 'var(--text-secondary)', fontSize: '0.95rem', lineHeight: '1.5' }}>
+                Receive a detailed project proposal with clear milestones, deliverables, and timeline.
+              </p>
             </div>
             
             <div style={{
               background: 'white',
-              padding: '2rem',
-              borderRadius: '12px',
-              boxShadow: '0 4px 6px rgba(0, 0, 0, 0.05)',
-              textAlign: 'center'
+              padding: '2.5rem',
+              borderRadius: '16px',
+              boxShadow: '0 4px 20px rgba(0, 0, 0, 0.08)',
+              textAlign: 'center',
+              border: '1px solid #E2E8F0',
+              transition: 'all 0.3s ease',
+              cursor: 'pointer',
+              position: 'relative',
+              overflow: 'hidden'
+            }}
+            onMouseEnter={(e) => {
+              e.currentTarget.style.transform = 'translateY(-8px)';
+              e.currentTarget.style.boxShadow = '0 12px 40px rgba(0, 0, 0, 0.15)';
+            }}
+            onMouseLeave={(e) => {
+              e.currentTarget.style.transform = 'translateY(0)';
+              e.currentTarget.style.boxShadow = '0 4px 20px rgba(0, 0, 0, 0.08)';
             }}>
+              <div style={{ 
+                width: '80px', 
+                height: '80px', 
+                background: 'linear-gradient(135deg, #FCB03A 0%, #FF7426 100%)',
+                borderRadius: '20px',
+                margin: '0 auto 1.5rem',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                boxShadow: '0 8px 25px rgba(0, 0, 0, 0.1)'
+              }}>
+                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2">
+                  <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                  <circle cx="9" cy="7" r="4"/>
+                  <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                  <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                </svg>
+              </div>
               <h3 style={{ fontSize: '1.25rem', fontWeight: '600', marginBottom: '1rem', color: 'var(--accent)' }}>
                 Dedicated Project Manager
               </h3>
+              <p style={{ color: 'var(--text-secondary)', fontSize: '0.95rem', lineHeight: '1.5' }}>
+                Your dedicated project manager ensures smooth communication and project coordination.
+              </p>
             </div>
             
             <div style={{
               background: 'white',
-              padding: '2rem',
-              borderRadius: '12px',
-              boxShadow: '0 4px 6px rgba(0, 0, 0, 0.05)',
-              textAlign: 'center'
+              padding: '2.5rem',
+              borderRadius: '16px',
+              boxShadow: '0 4px 20px rgba(0, 0, 0, 0.08)',
+              textAlign: 'center',
+              border: '1px solid #E2E8F0',
+              transition: 'all 0.3s ease',
+              cursor: 'pointer',
+              position: 'relative',
+              overflow: 'hidden'
+            }}
+            onMouseEnter={(e) => {
+              e.currentTarget.style.transform = 'translateY(-8px)';
+              e.currentTarget.style.boxShadow = '0 12px 40px rgba(0, 0, 0, 0.15)';
+            }}
+            onMouseLeave={(e) => {
+              e.currentTarget.style.transform = 'translateY(0)';
+              e.currentTarget.style.boxShadow = '0 4px 20px rgba(0, 0, 0, 0.08)';
             }}>
+              <div style={{ 
+                width: '80px', 
+                height: '80px', 
+                background: 'linear-gradient(135deg, #FCB03A 0%, #FF7426 100%)',
+                borderRadius: '20px',
+                margin: '0 auto 1.5rem',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                boxShadow: '0 8px 25px rgba(0, 0, 0, 0.1)'
+              }}>
+                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2">
+                  <path d="M9 19c-5 0-9-4-9-9s4-9 9-9 9 4 9 9-4 9-9 9z"/>
+                  <path d="M12 6v6l4 2"/>
+                  <path d="M21 12c0 4.97-4.03 9-9 9s-9-4.03-9-9 4.03-9 9-9 9 4.03 9 9z"/>
+                </svg>
+              </div>
               <h3 style={{ fontSize: '1.25rem', fontWeight: '600', marginBottom: '1rem', color: 'var(--accent)' }}>
                 Regular Updates and Transparency
               </h3>
+              <p style={{ color: 'var(--text-secondary)', fontSize: '0.95rem', lineHeight: '1.5' }}>
+                Stay informed with regular progress updates and transparent communication throughout the project.
+              </p>
             </div>
           </div>
           
           <div style={{ textAlign: 'center' }}>
             <Link href="/contact#get-in-touch" style={{
-              background: 'linear-gradient(135deg, var(--accent) 0%, #1A202C 100%)',
-              color: 'white',
+              background: 'linear-gradient(135deg, #FCB03A 0%, #FF7426 100%) !important',
+              color: 'white !important',
               padding: '1rem 2rem',
               borderRadius: '8px',
               textDecoration: 'none',
               fontSize: '1.125rem',
               fontWeight: '600',
               display: 'inline-block',
-              transition: 'all 0.3s ease'
+              transition: 'all 0.3s ease',
+              border: 'none'
             }}
             onMouseEnter={(e) => {
               e.currentTarget.style.transform = 'translateY(-2px)';
@@ -341,15 +473,16 @@ export default function Contact() {
           
           <div style={{ textAlign: 'center' }}>
             <Link href="/contact#get-in-touch" style={{
-              background: 'linear-gradient(135deg, var(--secondary) 0%, #A3E635 100%)',
-              color: 'var(--accent)',
+              background: 'linear-gradient(135deg, #FCB03A 0%, #FF7426 100%) !important',
+              color: 'white !important',
               padding: '1rem 2rem',
               borderRadius: '8px',
               textDecoration: 'none',
               fontSize: '1.125rem',
               fontWeight: '600',
               display: 'inline-block',
-              transition: 'all 0.3s ease'
+              transition: 'all 0.3s ease',
+              border: 'none'
             }}
             onMouseEnter={(e) => {
               e.currentTarget.style.transform = 'translateY(-2px)';
