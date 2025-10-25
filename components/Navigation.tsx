@@ -131,17 +131,17 @@ export default function Navigation() {
         {isMenuOpen && (
           <div style={{ 
             display: 'block', 
-            padding: '1.5rem 0', 
+            padding: '1rem 0', 
             borderTop: '1px solid rgba(0, 0, 0, 0.1)',
             background: 'white',
-            boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)'
+            boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)',
+            width: '100%'
           }}>
             <div style={{ 
               display: 'flex', 
               flexDirection: 'column', 
-              gap: '1.5rem',
-              maxWidth: '1200px',
-              margin: '0 auto',
+              gap: '1rem',
+              width: '100%',
               padding: '0 1rem'
             }}>
               {/* Mobile Menu Header */}
@@ -149,10 +149,12 @@ export default function Navigation() {
                 display: 'flex',
                 justifyContent: 'space-between',
                 alignItems: 'center',
-                marginBottom: '1rem'
+                marginBottom: '0.5rem',
+                paddingBottom: '0.5rem',
+                borderBottom: '1px solid rgba(0, 0, 0, 0.1)'
               }}>
                 <span style={{
-                  fontSize: '1.125rem',
+                  fontSize: '1rem',
                   fontWeight: '600',
                   color: 'var(--accent)'
                 }}>
@@ -164,11 +166,11 @@ export default function Navigation() {
                     background: 'none',
                     border: 'none',
                     cursor: 'pointer',
-                    padding: '0.5rem',
+                    padding: '0.25rem',
                     color: 'var(--accent)'
                   }}
                 >
-                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                     <line x1="18" y1="6" x2="6" y2="18"></line>
                     <line x1="6" y1="6" x2="18" y2="18"></line>
                   </svg>
@@ -178,8 +180,9 @@ export default function Navigation() {
                 color: 'var(--text-secondary)',
                 fontWeight: '500',
                 textDecoration: 'none',
-                padding: '0.75rem 0',
-                transition: 'color 0.3s ease'
+                padding: '0.5rem 0',
+                transition: 'color 0.3s ease',
+                borderBottom: '1px solid rgba(0, 0, 0, 0.05)'
               }}>
                 Home
               </Link>
@@ -187,8 +190,9 @@ export default function Navigation() {
                 color: 'var(--text-secondary)',
                 fontWeight: '500',
                 textDecoration: 'none',
-                padding: '0.75rem 0',
-                transition: 'color 0.3s ease'
+                padding: '0.5rem 0',
+                transition: 'color 0.3s ease',
+                borderBottom: '1px solid rgba(0, 0, 0, 0.05)'
               }}>
                 Services
               </Link>
@@ -196,8 +200,9 @@ export default function Navigation() {
                 color: 'var(--text-secondary)',
                 fontWeight: '500',
                 textDecoration: 'none',
-                padding: '0.75rem 0',
-                transition: 'color 0.3s ease'
+                padding: '0.5rem 0',
+                transition: 'color 0.3s ease',
+                borderBottom: '1px solid rgba(0, 0, 0, 0.05)'
               }}>
                 Work
               </Link>
@@ -205,8 +210,9 @@ export default function Navigation() {
                 color: 'var(--text-secondary)',
                 fontWeight: '500',
                 textDecoration: 'none',
-                padding: '0.75rem 0',
-                transition: 'color 0.3s ease'
+                padding: '0.5rem 0',
+                transition: 'color 0.3s ease',
+                borderBottom: '1px solid rgba(0, 0, 0, 0.05)'
               }}>
                 About Us
               </Link>
@@ -215,11 +221,12 @@ export default function Navigation() {
                 color: 'white',
                 fontWeight: '600',
                 textDecoration: 'none',
-                padding: '0.75rem 1.5rem',
+                padding: '0.75rem 1rem',
                 borderRadius: '8px',
                 transition: 'all 0.3s ease',
                 textAlign: 'center',
-                maxWidth: '200px'
+                width: '100%',
+                marginTop: '0.5rem'
               }}>
                 Contact Us
               </Link>
