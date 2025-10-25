@@ -67,7 +67,6 @@ export default function Contact() {
                 fontWeight: '600',
                 marginBottom: '1.5rem',
                 color: 'var(--accent)',
-,
                 textAlign: 'center'
               }}>
                 Contact Information
@@ -215,7 +214,6 @@ export default function Contact() {
                 fontWeight: '600',
                 marginBottom: '1.5rem',
                 color: 'var(--accent)',
-,
                 textAlign: 'center'
               }}>
                 Send us a Message
