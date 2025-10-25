@@ -3,26 +3,28 @@
 import { useState } from 'react'
 
 interface FormData {
-  name: string
+  fullName: string
   phone: string
   email: string
   company: string
   website: string
+  message: string
 }
 
 export default function ContactForm() {
   const [formData, setFormData] = useState<FormData>({
-    name: '',
+    fullName: '',
     phone: '',
     email: '',
     company: '',
-    website: ''
+    website: '',
+    message: ''
   })
   const [isSubmitting, setIsSubmitting] = useState(false)
   const [submitStatus, setSubmitStatus] = useState<'idle' | 'success' | 'error'>('idle')
   const [errorMessage, setErrorMessage] = useState('')
 
-  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const { name, value } = e.target
     setFormData(prev => ({
       ...prev,
@@ -51,8 +53,8 @@ export default function ContactForm() {
 
     try {
       // Validate required fields
-      if (!formData.name.trim()) {
-        throw new Error('Name is required')
+      if (!formData.fullName.trim()) {
+        throw new Error('Full name is required')
       }
       if (!formData.phone.trim()) {
         throw new Error('Phone number is required')
@@ -66,11 +68,12 @@ export default function ContactForm() {
         .from('contact_submissions')
         .insert([
           {
-            name: formData.name.trim(),
+            name: formData.fullName.trim(),
             phone: formData.phone.trim(),
             email: formData.email.trim() || null,
             company: formData.company.trim() || null,
             website: formData.website.trim() ? normalizeWebsiteUrl(formData.website.trim()) : null,
+            message: formData.message.trim() || null,
             created_at: new Date().toISOString()
           }
         ])
@@ -81,11 +84,12 @@ export default function ContactForm() {
 
       setSubmitStatus('success')
       setFormData({
-        name: '',
+        fullName: '',
         phone: '',
         email: '',
         company: '',
-        website: ''
+        website: '',
+        message: ''
       })
     } catch (error: any) {
       console.error('Error submitting form:', error)
@@ -152,12 +156,12 @@ export default function ContactForm() {
             fontWeight: '500',
             color: 'var(--accent)'
           }}>
-            Name *
+            Full Name *
           </label>
           <input
             type="text"
-            name="name"
-            value={formData.name}
+            name="fullName"
+            value={formData.fullName}
             onChange={handleInputChange}
             required
             style={{
@@ -238,7 +242,7 @@ export default function ContactForm() {
             fontWeight: '500',
             color: 'var(--accent)'
           }}>
-            Company Name
+            Company Name (Optional)
           </label>
           <input
             type="text"
@@ -259,14 +263,14 @@ export default function ContactForm() {
           />
         </div>
 
-        <div style={{ marginBottom: '2rem' }}>
+        <div style={{ marginBottom: '1.5rem' }}>
           <label style={{
             display: 'block',
             marginBottom: '0.5rem',
             fontWeight: '500',
             color: 'var(--accent)'
           }}>
-            Existing Website URL
+            Existing Website URL (Optional)
           </label>
           <input
             type="text"
@@ -294,6 +298,38 @@ export default function ContactForm() {
           }}>
             Accepts: www.example.com, https://example.com, example.com, or example.in
           </p>
+        </div>
+
+        <div style={{ marginBottom: '2rem' }}>
+          <label style={{
+            display: 'block',
+            marginBottom: '0.5rem',
+            fontWeight: '500',
+            color: 'var(--accent)'
+          }}>
+            Message *
+          </label>
+          <textarea
+            name="message"
+            value={formData.message}
+            onChange={handleInputChange}
+            required
+            rows={4}
+            placeholder="Tell us about your project, requirements, or any questions you have..."
+            style={{
+              width: '100%',
+              padding: '0.75rem',
+              border: '2px solid #E5E7EB',
+              borderRadius: '8px',
+              fontSize: '1rem',
+              transition: 'border-color 0.3s ease',
+              outline: 'none',
+              resize: 'vertical',
+              fontFamily: 'inherit'
+            }}
+            onFocus={(e) => e.target.style.borderColor = 'var(--accent)'}
+            onBlur={(e) => e.target.style.borderColor = '#E5E7EB'}
+          />
         </div>
 
         <button
