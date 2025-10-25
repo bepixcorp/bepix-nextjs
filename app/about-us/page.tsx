@@ -287,12 +287,13 @@ export default function AboutUs() {
               marginBottom: '3rem'
             }}>
               <div style={{
-                background: '#C6FB50',
+                background: 'white',
                 padding: '3rem 2rem',
                 borderRadius: '20px',
-                color: 'black',
+                color: 'var(--text-primary)',
                 textAlign: 'center',
-                boxShadow: '0 12px 40px rgba(102, 126, 234, 0.3)',
+                boxShadow: '0 8px 32px rgba(0, 0, 0, 0.1)',
+                border: '1px solid #E2E8F0',
                 transition: 'all 0.3s ease',
                 cursor: 'pointer',
                 position: 'relative',
@@ -300,17 +301,17 @@ export default function AboutUs() {
               }}
               onMouseEnter={(e) => {
                 e.currentTarget.style.transform = 'translateY(-8px)';
-                e.currentTarget.style.boxShadow = '0 20px 60px rgba(102, 126, 234, 0.4)';
+                e.currentTarget.style.boxShadow = '0 16px 48px rgba(0, 0, 0, 0.15)';
               }}
               onMouseLeave={(e) => {
                 e.currentTarget.style.transform = 'translateY(0)';
-                e.currentTarget.style.boxShadow = '0 12px 40px rgba(102, 126, 234, 0.3)';
+                e.currentTarget.style.boxShadow = '0 8px 32px rgba(0, 0, 0, 0.1)';
               }}>
                 <div style={{ 
                   fontSize: '4rem', 
                   fontWeight: '800', 
                   marginBottom: '1rem',
-                  textShadow: '0 2px 4px rgba(0, 0, 0, 0.1)'
+                  color: 'var(--accent)'
                 }}>
                   60+
                 </div>
@@ -318,26 +319,27 @@ export default function AboutUs() {
                   fontSize: '1.5rem', 
                   fontWeight: '600', 
                   marginBottom: '1rem',
-                  textShadow: '0 1px 2px rgba(0, 0, 0, 0.1)'
+                  color: 'var(--accent)'
                 }}>
                   Professionals
                 </h3>
                 <p style={{ 
                   fontSize: '1rem', 
                   lineHeight: '1.6',
-                  opacity: '0.95'
+                  color: 'var(--text-secondary)'
                 }}>
                   A passionate team of digital experts, designers, and strategists who love to learn and innovate.
                 </p>
               </div>
               
               <div style={{
-                background: '#C6FB50',
+                background: 'white',
                 padding: '3rem 2rem',
                 borderRadius: '20px',
-                color: 'black',
+                color: 'var(--text-primary)',
                 textAlign: 'center',
-                boxShadow: '0 12px 40px rgba(240, 147, 251, 0.3)',
+                boxShadow: '0 8px 32px rgba(0, 0, 0, 0.1)',
+                border: '1px solid #E2E8F0',
                 transition: 'all 0.3s ease',
                 cursor: 'pointer',
                 position: 'relative',
@@ -345,17 +347,17 @@ export default function AboutUs() {
               }}
               onMouseEnter={(e) => {
                 e.currentTarget.style.transform = 'translateY(-8px)';
-                e.currentTarget.style.boxShadow = '0 20px 60px rgba(240, 147, 251, 0.4)';
+                e.currentTarget.style.boxShadow = '0 16px 48px rgba(0, 0, 0, 0.15)';
               }}
               onMouseLeave={(e) => {
                 e.currentTarget.style.transform = 'translateY(0)';
-                e.currentTarget.style.boxShadow = '0 12px 40px rgba(240, 147, 251, 0.3)';
+                e.currentTarget.style.boxShadow = '0 8px 32px rgba(0, 0, 0, 0.1)';
               }}>
                 <div style={{ 
                   fontSize: '4rem', 
                   fontWeight: '800', 
                   marginBottom: '1rem',
-                  textShadow: '0 2px 4px rgba(0, 0, 0, 0.1)'
+                  color: 'var(--accent)'
                 }}>
                   20+
                 </div>
@@ -363,26 +365,27 @@ export default function AboutUs() {
                   fontSize: '1.5rem', 
                   fontWeight: '600', 
                   marginBottom: '1rem',
-                  textShadow: '0 1px 2px rgba(0, 0, 0, 0.1)'
+                  color: 'var(--accent)'
                 }}>
                   Projects
                 </h3>
                 <p style={{ 
                   fontSize: '1rem', 
                   lineHeight: '1.6',
-                  opacity: '0.95'
+                  color: 'var(--text-secondary)'
                 }}>
                   A growing portfolio of successfully delivered projects across diverse industries.
                 </p>
               </div>
               
               <div style={{
-                background: '#C6FB50',
+                background: 'white',
                 padding: '3rem 2rem',
                 borderRadius: '20px',
-                color: 'black',
+                color: 'var(--text-primary)',
                 textAlign: 'center',
-                boxShadow: '0 12px 40px rgba(79, 172, 254, 0.3)',
+                boxShadow: '0 8px 32px rgba(0, 0, 0, 0.1)',
+                border: '1px solid #E2E8F0',
                 transition: 'all 0.3s ease',
                 cursor: 'pointer',
                 position: 'relative',
@@ -390,17 +393,17 @@ export default function AboutUs() {
               }}
               onMouseEnter={(e) => {
                 e.currentTarget.style.transform = 'translateY(-8px)';
-                e.currentTarget.style.boxShadow = '0 20px 60px rgba(79, 172, 254, 0.4)';
+                e.currentTarget.style.boxShadow = '0 16px 48px rgba(0, 0, 0, 0.15)';
               }}
               onMouseLeave={(e) => {
                 e.currentTarget.style.transform = 'translateY(0)';
-                e.currentTarget.style.boxShadow = '0 12px 40px rgba(79, 172, 254, 0.3)';
+                e.currentTarget.style.boxShadow = '0 8px 32px rgba(0, 0, 0, 0.1)';
               }}>
                 <div style={{ 
                   fontSize: '4rem', 
                   fontWeight: '800', 
                   marginBottom: '1rem',
-                  textShadow: '0 2px 4px rgba(0, 0, 0, 0.1)'
+                  color: 'var(--accent)'
                 }}>
                   15+
                 </div>
@@ -408,14 +411,14 @@ export default function AboutUs() {
                   fontSize: '1.5rem', 
                   fontWeight: '600', 
                   marginBottom: '1rem',
-                  textShadow: '0 1px 2px rgba(0, 0, 0, 0.1)'
+                  color: 'var(--accent)'
                 }}>
                   Clients
                 </h3>
                 <p style={{ 
                   fontSize: '1rem', 
                   lineHeight: '1.6',
-                  opacity: '0.95'
+                  color: 'var(--text-secondary)'
                 }}>
                   A trusted community of brands that continue to grow with our partnership.
                 </p>
