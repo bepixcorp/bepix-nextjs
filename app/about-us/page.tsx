@@ -38,8 +38,42 @@ export default function AboutUs() {
         </div>
       </section>
 
-      {/* Section 1: Our Story */}
+      {/* Section 1: Digital Marketing Excellence */}
       <section style={{ padding: '100px 0', background: 'white' }}>
+        <div className="container">
+          <div style={{ maxWidth: '900px', margin: '0 auto', textAlign: 'center' }}>
+            <h2 style={{
+              fontSize: '2.5rem',
+              fontWeight: '700',
+              marginBottom: '2rem',
+              color: 'var(--accent)',
+              fontFamily: 'Inter, sans-serif'
+            }}>
+              The Best Digital Marketing Agency in Tamil Nadu
+            </h2>
+            <p style={{
+              fontSize: '1.25rem',
+              color: 'var(--text-secondary)',
+              lineHeight: '1.6',
+              marginBottom: '2rem'
+            }}>
+              Bepix is a leading Digital Marketing Agency in Tamil Nadu, known for its innovative strategies, creative designs, and advanced digital solutions. Beyond digital marketing, our expertise extends to Website Development, Branding, and Advertising Services — all crafted to elevate your business in today's competitive market.
+            </p>
+            <p style={{
+              fontSize: '1.125rem',
+              color: 'var(--text-secondary)',
+              lineHeight: '1.6',
+              maxWidth: '800px',
+              margin: '0 auto'
+            }}>
+              At Bepix, we believe that your brand deserves to shine. That's why we combine creativity, technology, and marketing expertise to deliver measurable results.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Section 2: Our Story */}
+      <section style={{ padding: '100px 0', background: '#F8F7F5' }}>
         <div className="container">
           <div style={{ maxWidth: '800px', margin: '0 auto', textAlign: 'center' }}>
             <h2 style={{
@@ -63,8 +97,8 @@ export default function AboutUs() {
         </div>
       </section>
 
-      {/* Section 2: Our Mission & Values */}
-      <section style={{ padding: '100px 0', background: '#F8F7F5' }}>
+      {/* Section 3: Our Mission & Values */}
+      <section style={{ padding: '100px 0', background: 'white' }}>
         <div className="container">
           <h2 style={{
             fontSize: '2.5rem',
@@ -259,7 +293,7 @@ export default function AboutUs() {
         </div>
       </section>
 
-      {/* Section 3: Meet Our Community */}
+      {/* Section 4: Meet Our Community */}
       <section style={{
         padding: '100px 0',
         background: 'linear-gradient(135deg, var(--accent) 0%, #1A202C 100%)',
