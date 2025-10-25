@@ -16,7 +16,7 @@ export default function AboutUs() {
         <div className="container">
           <div style={{ maxWidth: '900px', margin: '0 auto' }}>
             <h1 style={{
-              fontSize: '3.5rem',
+              fontSize: 'clamp(1.75rem, 4vw, 2.5rem)',
               fontWeight: '700',
               marginBottom: '1.5rem',
               color: 'var(--accent)',
@@ -24,7 +24,7 @@ export default function AboutUs() {
               We Transform Ideas into Digital Excellence
             </h1>
             <p style={{
-              fontSize: '1.375rem',
+              fontSize: 'clamp(1rem, 2.5vw, 1.25rem)',
               color: 'var(--text-secondary)',
               marginBottom: '2.5rem',
               lineHeight: '1.6',
@@ -58,7 +58,7 @@ export default function AboutUs() {
               Bepix is a leading Digital Marketing Agency in Tamil Nadu, known for its innovative strategies, creative designs, and advanced digital solutions. Beyond digital marketing, our expertise extends to Website Development, Branding, and Advertising Services — all crafted to elevate your business in today's competitive market.
             </p>
             <p style={{
-              fontSize: '1.125rem',
+              fontSize: 'clamp(1rem, 2.5vw, 1.125rem)',
               color: 'var(--text-secondary)',
               lineHeight: '1.6',
               maxWidth: '800px',
@@ -76,7 +76,7 @@ export default function AboutUs() {
         <div className="container">
           <div style={{ maxWidth: '900px', margin: '0 auto', textAlign: 'center', padding: '0 2rem' }}>
             <h2 style={{
-              fontSize: '2.5rem',
+              fontSize: 'clamp(1.75rem, 4vw, 2.5rem)',
               fontWeight: '700',
               marginBottom: '2rem',
               color: 'var(--accent)',
@@ -84,7 +84,7 @@ export default function AboutUs() {
               Be at Ease — Let the Experts Handle It
             </h2>
             <p style={{
-              fontSize: '1.25rem',
+              fontSize: 'clamp(1rem, 2.5vw, 1.25rem)',
               color: 'var(--text-secondary)',
               lineHeight: '1.6',
               marginBottom: '2rem'
@@ -273,7 +273,7 @@ export default function AboutUs() {
         <div className="container">
           <div style={{ maxWidth: '1000px', margin: '0 auto', textAlign: 'center' }}>
             <h2 style={{
-              fontSize: '2.5rem',
+              fontSize: 'clamp(1.75rem, 4vw, 2.5rem)',
               fontWeight: '700',
               marginBottom: '4rem',
               color: 'var(--accent)',
@@ -443,7 +443,7 @@ export default function AboutUs() {
         <div className="container">
           <div style={{ maxWidth: '1000px', margin: '0 auto', textAlign: 'center' }}>
             <h2 style={{
-              fontSize: '2.5rem',
+              fontSize: 'clamp(1.75rem, 4vw, 2.5rem)',
               fontWeight: '700',
               marginBottom: '2rem',
               color: 'var(--accent)',
@@ -451,7 +451,7 @@ export default function AboutUs() {
               Experience That Speaks for Itself
             </h2>
             <p style={{
-              fontSize: '1.25rem',
+              fontSize: 'clamp(1rem, 2.5vw, 1.25rem)',
               color: 'var(--text-secondary)',
               lineHeight: '1.6',
               marginBottom: '4rem',
@@ -732,7 +732,7 @@ export default function AboutUs() {
         <div className="container">
           <div style={{ maxWidth: '1000px', margin: '0 auto', textAlign: 'center' }}>
             <h2 style={{
-              fontSize: '2.5rem',
+              fontSize: 'clamp(1.75rem, 4vw, 2.5rem)',
               fontWeight: '700',
               marginBottom: '4rem',
               color: 'var(--accent)',
@@ -942,7 +942,7 @@ export default function AboutUs() {
         <div className="container">
           <div style={{ maxWidth: '1000px', margin: '0 auto', textAlign: 'center' }}>
             <h2 style={{
-              fontSize: '2.5rem',
+              fontSize: 'clamp(1.75rem, 4vw, 2.5rem)',
               fontWeight: '700',
               marginBottom: '4rem',
               color: 'var(--accent)',
@@ -992,7 +992,7 @@ export default function AboutUs() {
                   </svg>
                 </div>
                 <h3 style={{ 
-                  fontSize: '1.25rem', 
+                  fontSize: 'clamp(1rem, 2.5vw, 1.25rem)', 
                   fontWeight: '600', 
                   marginBottom: '1rem', 
                   color: 'var(--accent)'
@@ -1046,7 +1046,7 @@ export default function AboutUs() {
                   </svg>
                 </div>
                 <h3 style={{ 
-                  fontSize: '1.25rem', 
+                  fontSize: 'clamp(1rem, 2.5vw, 1.25rem)', 
                   fontWeight: '600', 
                   marginBottom: '1rem', 
                   color: 'var(--accent)'
@@ -1100,7 +1100,7 @@ export default function AboutUs() {
                   </svg>
                 </div>
                 <h3 style={{ 
-                  fontSize: '1.25rem', 
+                  fontSize: 'clamp(1rem, 2.5vw, 1.25rem)', 
                   fontWeight: '600', 
                   marginBottom: '1rem', 
                   color: 'var(--accent)'
@@ -1155,7 +1155,7 @@ export default function AboutUs() {
                   </svg>
                 </div>
                 <h3 style={{ 
-                  fontSize: '1.25rem', 
+                  fontSize: 'clamp(1rem, 2.5vw, 1.25rem)', 
                   fontWeight: '600', 
                   marginBottom: '1rem', 
                   color: 'var(--accent)'
@@ -1209,7 +1209,7 @@ export default function AboutUs() {
                   </svg>
                 </div>
                 <h3 style={{ 
-                  fontSize: '1.25rem', 
+                  fontSize: 'clamp(1rem, 2.5vw, 1.25rem)', 
                   fontWeight: '600', 
                   marginBottom: '1rem', 
                   color: 'var(--accent)'
@@ -1263,7 +1263,7 @@ export default function AboutUs() {
                   </svg>
                 </div>
                 <h3 style={{ 
-                  fontSize: '1.25rem', 
+                  fontSize: 'clamp(1rem, 2.5vw, 1.25rem)', 
                   fontWeight: '600', 
                   marginBottom: '1rem', 
                   color: 'var(--accent)'
@@ -1288,7 +1288,7 @@ export default function AboutUs() {
         <div className="container">
           <div style={{ maxWidth: '800px', margin: '0 auto', textAlign: 'center', padding: '0 2rem' }}>
             <h2 style={{
-              fontSize: '2.5rem',
+              fontSize: 'clamp(1.75rem, 4vw, 2.5rem)',
               fontWeight: '700',
               marginBottom: '2rem',
               color: 'var(--accent)',
@@ -1296,7 +1296,7 @@ export default function AboutUs() {
               The BePix Journey
             </h2>
             <p style={{
-              fontSize: '1.125rem',
+              fontSize: 'clamp(1rem, 2.5vw, 1.125rem)',
               color: 'var(--text-secondary)',
               lineHeight: '1.6',
               marginBottom: '2rem'

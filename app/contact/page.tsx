@@ -42,7 +42,7 @@ export default function Contact() {
       <section id="get-in-touch" style={{ padding: '100px 0', background: 'white' }}>
         <div className="container">
           <h2 style={{
-            fontSize: '2.5rem',
+            fontSize: 'clamp(1.75rem, 4vw, 2.5rem)',
             fontWeight: '700',
             textAlign: 'center',
             marginBottom: '4rem',
@@ -63,7 +63,7 @@ export default function Contact() {
             {/* Contact Information Section */}
             <div>
               <h3 style={{
-                fontSize: '1.5rem',
+                fontSize: 'clamp(1.25rem, 3vw, 1.5rem)',
                 fontWeight: '600',
                 marginBottom: '1.5rem',
                 color: 'var(--accent)',
@@ -166,7 +166,7 @@ export default function Contact() {
             {/* Contact Form Section */}
             <div>
               <h3 style={{
-                fontSize: '1.5rem',
+                fontSize: 'clamp(1.25rem, 3vw, 1.5rem)',
                 fontWeight: '600',
                 marginBottom: '1.5rem',
                 color: 'var(--accent)',
@@ -184,7 +184,7 @@ export default function Contact() {
       <section style={{ padding: '100px 0', background: '#F8F7F5' }}>
         <div className="container">
           <h2 style={{
-            fontSize: '2.5rem',
+              fontSize: 'clamp(1.75rem, 4vw, 2.5rem)',
             fontWeight: '700',
             textAlign: 'center',
             marginBottom: '1.5rem',
@@ -382,7 +382,7 @@ export default function Contact() {
               padding: '1rem 2rem',
               borderRadius: '8px',
               textDecoration: 'none',
-              fontSize: '1.125rem',
+              fontSize: 'clamp(1rem, 2.5vw, 1.125rem)',
               fontWeight: '600',
               display: 'inline-block',
               transition: 'all 0.3s ease',
@@ -406,7 +406,7 @@ export default function Contact() {
       <section style={{ padding: '100px 0', background: 'white' }}>
         <div className="container">
           <h2 style={{
-            fontSize: '2.5rem',
+              fontSize: 'clamp(1.75rem, 4vw, 2.5rem)',
             fontWeight: '700',
             textAlign: 'center',
             marginBottom: '1.5rem',
@@ -417,7 +417,7 @@ export default function Contact() {
           </h2>
           
           <p style={{
-            fontSize: '1.25rem',
+              fontSize: 'clamp(1rem, 2.5vw, 1.25rem)',
             color: 'var(--text-secondary)',
             textAlign: 'center',
             maxWidth: '800px',
@@ -434,7 +434,7 @@ export default function Contact() {
               padding: '1rem 2rem',
               borderRadius: '8px',
               textDecoration: 'none',
-              fontSize: '1.125rem',
+              fontSize: 'clamp(1rem, 2.5vw, 1.125rem)',
               fontWeight: '600',
               display: 'inline-block',
               transition: 'all 0.3s ease',

@@ -16,7 +16,7 @@ export default function Work() {
         <div className="container">
           <div style={{ maxWidth: '900px', margin: '0 auto', padding: '0 2rem' }}>
             <h1 style={{
-              fontSize: '3.5rem',
+              fontSize: 'clamp(1.75rem, 4vw, 2.5rem)',
               fontWeight: '700',
               marginBottom: '1.5rem',
               color: 'var(--accent)',
@@ -24,7 +24,7 @@ export default function Work() {
               Our Work — Where Creativity Meets Functionality
             </h1>
             <p style={{
-              fontSize: '1.375rem',
+              fontSize: 'clamp(1rem, 2.5vw, 1.25rem)',
               color: 'var(--text-secondary)',
               marginBottom: '2.5rem',
               lineHeight: '1.6',
@@ -67,7 +67,7 @@ export default function Work() {
                 borderRadius: '8px',
                 textDecoration: 'none',
                 fontWeight: '600',
-                fontSize: '1.125rem',
+                fontSize: 'clamp(1rem, 2.5vw, 1.125rem)',
                 transition: 'all 0.3s ease',
                 boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)',
                 display: 'inline-block',
@@ -82,7 +82,7 @@ export default function Work() {
                 borderRadius: '8px',
                 textDecoration: 'none',
                 fontWeight: '600',
-                fontSize: '1.125rem',
+                fontSize: 'clamp(1rem, 2.5vw, 1.125rem)',
                 transition: 'all 0.3s ease',
                 boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)',
                 display: 'inline-block',
@@ -99,7 +99,7 @@ export default function Work() {
       <section style={{ padding: '100px 0', background: '#F8F7F5' }}>
         <div className="container">
           <h2 style={{
-            fontSize: '2.5rem',
+              fontSize: 'clamp(1.75rem, 4vw, 2.5rem)',
             fontWeight: '700',
             textAlign: 'center',
             marginBottom: '4rem',
@@ -248,7 +248,7 @@ export default function Work() {
       <section style={{ padding: '100px 0', background: 'white' }}>
         <div className="container">
           <h2 style={{
-            fontSize: '2.5rem',
+              fontSize: 'clamp(1.75rem, 4vw, 2.5rem)',
             fontWeight: '700',
             textAlign: 'center',
             marginBottom: '4rem',
@@ -399,7 +399,7 @@ export default function Work() {
       <section style={{ padding: '100px 0', background: '#F8F7F5' }}>
         <div className="container">
           <h2 style={{
-            fontSize: '2.5rem',
+              fontSize: 'clamp(1.75rem, 4vw, 2.5rem)',
             fontWeight: '700',
             textAlign: 'center',
             marginBottom: '4rem',
