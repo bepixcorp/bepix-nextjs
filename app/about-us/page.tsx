@@ -42,7 +42,7 @@ export default function AboutUs() {
         <div className="container">
           <div style={{ maxWidth: '900px', margin: '0 auto', textAlign: 'center', padding: '0 2rem' }}>
             <h2 style={{
-              fontSize: '2.5rem',
+              fontSize: 'clamp(1.75rem, 4vw, 2.5rem)',
               fontWeight: '700',
               marginBottom: '2rem',
               color: 'var(--accent)',
@@ -50,7 +50,7 @@ export default function AboutUs() {
               The Best Creative Agency in Tamil Nadu
             </h2>
             <p style={{
-              fontSize: '1.25rem',
+              fontSize: 'clamp(1rem, 2.5vw, 1.25rem)',
               color: 'var(--text-secondary)',
               lineHeight: '1.6',
               marginBottom: '2rem'

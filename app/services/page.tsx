@@ -41,7 +41,7 @@ export default function Services() {
       <section style={{ padding: '100px 0', background: 'white' }}>
         <div className="container">
           <h2 style={{
-            fontSize: '2.5rem',
+            fontSize: 'clamp(1.75rem, 4vw, 2.5rem)',
             fontWeight: '700',
             textAlign: 'center',
             marginBottom: '1.5rem',
@@ -51,7 +51,7 @@ export default function Services() {
             Design That Defines Brands
           </h2>
           <p style={{
-            fontSize: '1.25rem',
+            fontSize: 'clamp(1rem, 2.5vw, 1.25rem)',
             color: 'var(--text-secondary)',
             textAlign: 'center',
             marginBottom: '4rem',
