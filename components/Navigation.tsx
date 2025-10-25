@@ -7,35 +7,114 @@ export default function Navigation() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
   return (
-    <nav className="bg-white shadow-lg">
+    <nav style={{
+      background: 'var(--white)',
+      boxShadow: 'var(--shadow)',
+      position: 'sticky',
+      top: 0,
+      zIndex: 1000,
+      borderBottom: '1px solid rgba(198, 251, 80, 0.1)'
+    }}>
       <div className="container">
-        <div className="flex justify-between items-center py-4">
-          <Link href="/" className="text-2xl font-bold text-gray-800">
+        <div style={{ 
+          display: 'flex', 
+          justifyContent: 'space-between', 
+          alignItems: 'center', 
+          padding: '1.25rem 0',
+          maxWidth: '1200px',
+          margin: '0 auto',
+          width: '100%'
+        }}>
+          <Link href="/" style={{
+            fontSize: '1.75rem',
+            fontWeight: '800',
+            color: 'var(--accent)',
+            textDecoration: 'none',
+            transition: 'color 0.3s ease',
+            flex: '0 0 auto'
+          }}>
             BePix
           </Link>
           
           {/* Desktop Menu */}
-          <div className="hidden md:flex space-x-8">
-            <Link href="/" className="text-gray-600 hover:text-gray-900 transition">
+          <div style={{ 
+            display: 'flex', 
+            justifyContent: 'center',
+            alignItems: 'center',
+            flex: '1',
+            gap: '3rem'
+          }}>
+            <Link href="/" style={{
+              color: 'var(--text-secondary)',
+              fontWeight: '500',
+              textDecoration: 'none',
+              padding: '0.5rem 0',
+              position: 'relative',
+              transition: 'color 0.3s ease'
+            }}>
               Home
             </Link>
-            <Link href="/about" className="text-gray-600 hover:text-gray-900 transition">
-              About Us
-            </Link>
-            <Link href="/services" className="text-gray-600 hover:text-gray-900 transition">
+            <Link href="/services" style={{
+              color: 'var(--text-secondary)',
+              fontWeight: '500',
+              textDecoration: 'none',
+              padding: '0.5rem 0',
+              position: 'relative',
+              transition: 'color 0.3s ease'
+            }}>
               Services
             </Link>
-            <Link href="/contact" className="text-gray-600 hover:text-gray-900 transition">
-              Contact
+            <Link href="/work" style={{
+              color: 'var(--text-secondary)',
+              fontWeight: '500',
+              textDecoration: 'none',
+              padding: '0.5rem 0',
+              position: 'relative',
+              transition: 'color 0.3s ease'
+            }}>
+              Work
+            </Link>
+            <Link href="/about" style={{
+              color: 'var(--text-secondary)',
+              fontWeight: '500',
+              textDecoration: 'none',
+              padding: '0.5rem 0',
+              position: 'relative',
+              transition: 'color 0.3s ease'
+            }}>
+              About
+            </Link>
+          </div>
+          
+          {/* Contact Button */}
+          <div style={{ flex: '0 0 auto' }}>
+            <Link href="/contact" style={{
+              background: 'var(--secondary)',
+              color: 'var(--accent)',
+              fontWeight: '600',
+              textDecoration: 'none',
+              padding: '0.75rem 1.5rem',
+              borderRadius: '8px',
+              transition: 'all 0.3s ease',
+              boxShadow: 'var(--shadow)'
+            }}>
+              Contact Us
             </Link>
           </div>
 
           {/* Mobile menu button */}
           <button
-            className="md:hidden"
+            className="mobile-menu-btn"
+            style={{ 
+              display: 'none',
+              background: 'none',
+              border: 'none',
+              cursor: 'pointer',
+              padding: '0.5rem'
+            }}
             onClick={() => setIsMenuOpen(!isMenuOpen)}
           >
-            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <svg style={{ width: '24px', height: '24px', color: 'var(--accent)' }} fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
             </svg>
           </button>
@@ -43,19 +122,67 @@ export default function Navigation() {
 
         {/* Mobile Menu */}
         {isMenuOpen && (
-          <div className="md:hidden py-4 border-t">
-            <div className="flex flex-col space-y-4">
-              <Link href="/" className="text-gray-600 hover:text-gray-900 transition">
+          <div style={{ 
+            display: 'block', 
+            padding: '1.5rem 0', 
+            borderTop: '1px solid rgba(198, 251, 80, 0.1)',
+            background: 'var(--primary)'
+          }}>
+            <div style={{ 
+              display: 'flex', 
+              flexDirection: 'column', 
+              gap: '1.5rem',
+              maxWidth: '1200px',
+              margin: '0 auto'
+            }}>
+              <Link href="/" style={{
+                color: 'var(--text-secondary)',
+                fontWeight: '500',
+                textDecoration: 'none',
+                padding: '0.75rem 0',
+                transition: 'color 0.3s ease'
+              }}>
                 Home
               </Link>
-              <Link href="/about" className="text-gray-600 hover:text-gray-900 transition">
-                About Us
-              </Link>
-              <Link href="/services" className="text-gray-600 hover:text-gray-900 transition">
+              <Link href="/services" style={{
+                color: 'var(--text-secondary)',
+                fontWeight: '500',
+                textDecoration: 'none',
+                padding: '0.75rem 0',
+                transition: 'color 0.3s ease'
+              }}>
                 Services
               </Link>
-              <Link href="/contact" className="text-gray-600 hover:text-gray-900 transition">
-                Contact
+              <Link href="/work" style={{
+                color: 'var(--text-secondary)',
+                fontWeight: '500',
+                textDecoration: 'none',
+                padding: '0.75rem 0',
+                transition: 'color 0.3s ease'
+              }}>
+                Work
+              </Link>
+              <Link href="/about" style={{
+                color: 'var(--text-secondary)',
+                fontWeight: '500',
+                textDecoration: 'none',
+                padding: '0.75rem 0',
+                transition: 'color 0.3s ease'
+              }}>
+                About
+              </Link>
+              <Link href="/contact" style={{
+                background: 'var(--secondary)',
+                color: 'var(--accent)',
+                fontWeight: '600',
+                textDecoration: 'none',
+                padding: '0.75rem 1.5rem',
+                borderRadius: '8px',
+                transition: 'all 0.3s ease',
+                textAlign: 'center',
+                maxWidth: '200px'
+              }}>
+                Contact Us
               </Link>
             </div>
           </div>

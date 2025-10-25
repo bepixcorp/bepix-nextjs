@@ -1,141 +1,303 @@
+'use client';
+
+import Link from 'next/link'
+
 export default function About() {
   return (
     <div>
       {/* Hero Section */}
-      <section className="hero">
+      <section style={{
+        background: 'linear-gradient(135deg, var(--primary) 0%, #F8F7F5 100%)',
+        padding: '120px 0',
+        textAlign: 'center',
+        position: 'relative',
+        overflow: 'hidden'
+      }}>
         <div className="container">
-          <h1>About BePix</h1>
-          <p>Your trusted partner in professional services and innovative solutions</p>
+          <div style={{ maxWidth: '900px', margin: '0 auto' }}>
+            <h1 style={{
+              fontSize: '3.5rem',
+              fontWeight: '700',
+              marginBottom: '1.5rem',
+              color: 'var(--accent)',
+              fontFamily: 'Inter, sans-serif'
+            }}>
+              We Transform Ideas into Digital Excellence
+            </h1>
+            <p style={{
+              fontSize: '1.375rem',
+              color: 'var(--text-secondary)',
+              marginBottom: '2.5rem',
+              lineHeight: '1.6',
+              maxWidth: '700px',
+              margin: '0 auto 2.5rem'
+            }}>
+              Our team combines creativity, technology, and strategy to deliver meaningful digital experiences.
+            </p>
+          </div>
         </div>
       </section>
 
-      {/* Company Story */}
-      <section className="section bg-white">
+      {/* Section 1: Our Story */}
+      <section style={{ padding: '100px 0', background: 'white' }}>
         <div className="container">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <div>
-              <h2 className="text-3xl font-bold mb-6">Our Story</h2>
-              <p className="text-lg text-gray-600 mb-4">
-                Founded with a vision to revolutionize the industry, BePix has been at the forefront 
-                of innovation and excellence. We started as a small team with big dreams and have 
-                grown into a trusted partner for businesses worldwide.
-              </p>
-              <p className="text-lg text-gray-600 mb-4">
-                Our journey began with a simple belief: that every business deserves access to 
-                world-class services and solutions. Today, we're proud to serve clients across 
-                various industries, helping them achieve their goals and exceed their expectations.
-              </p>
-              <p className="text-lg text-gray-600">
-                At BePix, we don't just provide services – we build lasting partnerships that 
-                drive success and growth for our clients.
+          <div style={{ maxWidth: '800px', margin: '0 auto', textAlign: 'center' }}>
+            <h2 style={{
+              fontSize: '2.5rem',
+              fontWeight: '700',
+              marginBottom: '2rem',
+              color: 'var(--accent)',
+              fontFamily: 'Inter, sans-serif'
+            }}>
+              The BePix Journey
+            </h2>
+            <p style={{
+              fontSize: '1.125rem',
+              color: 'var(--text-secondary)',
+              lineHeight: '1.6',
+              marginBottom: '2rem'
+            }}>
+              Founded with a vision to go beyond pixels, BePix unites innovators from diverse industries to craft purposeful design and technology solutions that inspire and empower.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Section 2: Our Mission & Values */}
+      <section style={{ padding: '100px 0', background: '#F8F7F5' }}>
+        <div className="container">
+          <h2 style={{
+            fontSize: '2.5rem',
+            fontWeight: '700',
+            textAlign: 'center',
+            marginBottom: '4rem',
+            color: 'var(--accent)',
+            fontFamily: 'Inter, sans-serif'
+          }}>
+            Innovation at the Core
+          </h2>
+          
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: '2rem' }}>
+            <div style={{
+              background: 'white',
+              padding: '2rem',
+              borderRadius: '16px',
+              boxShadow: '0 4px 20px rgba(0, 0, 0, 0.08)',
+              textAlign: 'center',
+              border: '1px solid #E2E8F0',
+              transition: 'all 0.3s ease',
+              cursor: 'pointer',
+              position: 'relative',
+              overflow: 'hidden'
+            }}
+            onMouseEnter={(e) => {
+              e.currentTarget.style.transform = 'translateY(-8px)';
+              e.currentTarget.style.boxShadow = '0 12px 40px rgba(0, 0, 0, 0.15)';
+            }}
+            onMouseLeave={(e) => {
+              e.currentTarget.style.transform = 'translateY(0)';
+              e.currentTarget.style.boxShadow = '0 4px 20px rgba(0, 0, 0, 0.08)';
+            }}>
+              <div style={{ 
+                width: '80px', 
+                height: '80px', 
+                background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+                borderRadius: '20px',
+                margin: '0 auto 1.5rem',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                boxShadow: '0 8px 25px rgba(102, 126, 234, 0.3)'
+              }}>
+                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2">
+                  <path d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 1 1 7.072 0l-.548.547A3.374 3.374 0 0 0 14 18.469V19a2 2 0 1 1-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/>
+                </svg>
+              </div>
+              <h3 style={{ fontSize: '1.5rem', fontWeight: '600', marginBottom: '1rem', color: 'var(--accent)' }}>
+                Innovation
+              </h3>
+              <p style={{ color: 'var(--text-secondary)', lineHeight: '1.6' }}>
+                Constantly exploring new ideas and technologies.
               </p>
             </div>
-            <div className="bg-gray-100 rounded-lg p-8">
-              <div className="grid grid-cols-2 gap-8 text-center">
-                <div>
-                  <div className="text-3xl font-bold text-blue-600 mb-2">500+</div>
-                  <div className="text-gray-600">Projects Completed</div>
-                </div>
-                <div>
-                  <div className="text-3xl font-bold text-green-600 mb-2">50+</div>
-                  <div className="text-gray-600">Happy Clients</div>
-                </div>
-                <div>
-                  <div className="text-3xl font-bold text-purple-600 mb-2">5+</div>
-                  <div className="text-gray-600">Years Experience</div>
-                </div>
-                <div>
-                  <div className="text-3xl font-bold text-orange-600 mb-2">24/7</div>
-                  <div className="text-gray-600">Support Available</div>
-                </div>
+            
+            <div style={{
+              background: 'white',
+              padding: '2rem',
+              borderRadius: '16px',
+              boxShadow: '0 4px 20px rgba(0, 0, 0, 0.08)',
+              textAlign: 'center',
+              border: '1px solid #E2E8F0',
+              transition: 'all 0.3s ease',
+              cursor: 'pointer',
+              position: 'relative',
+              overflow: 'hidden'
+            }}
+            onMouseEnter={(e) => {
+              e.currentTarget.style.transform = 'translateY(-8px)';
+              e.currentTarget.style.boxShadow = '0 12px 40px rgba(0, 0, 0, 0.15)';
+            }}
+            onMouseLeave={(e) => {
+              e.currentTarget.style.transform = 'translateY(0)';
+              e.currentTarget.style.boxShadow = '0 4px 20px rgba(0, 0, 0, 0.08)';
+            }}>
+              <div style={{ 
+                width: '80px', 
+                height: '80px', 
+                background: 'linear-gradient(135deg, #f093fb 0%, #f5576c 100%)',
+                borderRadius: '20px',
+                margin: '0 auto 1.5rem',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                boxShadow: '0 8px 25px rgba(240, 147, 251, 0.3)'
+              }}>
+                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2">
+                  <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                  <circle cx="9" cy="7" r="4"/>
+                  <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                  <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                </svg>
               </div>
+              <h3 style={{ fontSize: '1.5rem', fontWeight: '600', marginBottom: '1rem', color: 'var(--accent)' }}>
+                Collaboration
+              </h3>
+              <p style={{ color: 'var(--text-secondary)', lineHeight: '1.6' }}>
+                Building long-term relationships based on trust and creativity.
+              </p>
+            </div>
+            
+            <div style={{
+              background: 'white',
+              padding: '2rem',
+              borderRadius: '16px',
+              boxShadow: '0 4px 20px rgba(0, 0, 0, 0.08)',
+              textAlign: 'center',
+              border: '1px solid #E2E8F0',
+              transition: 'all 0.3s ease',
+              cursor: 'pointer',
+              position: 'relative',
+              overflow: 'hidden'
+            }}
+            onMouseEnter={(e) => {
+              e.currentTarget.style.transform = 'translateY(-8px)';
+              e.currentTarget.style.boxShadow = '0 12px 40px rgba(0, 0, 0, 0.15)';
+            }}
+            onMouseLeave={(e) => {
+              e.currentTarget.style.transform = 'translateY(0)';
+              e.currentTarget.style.boxShadow = '0 4px 20px rgba(0, 0, 0, 0.08)';
+            }}>
+              <div style={{ 
+                width: '80px', 
+                height: '80px', 
+                background: 'linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)',
+                borderRadius: '20px',
+                margin: '0 auto 1.5rem',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                boxShadow: '0 8px 25px rgba(79, 172, 254, 0.3)'
+              }}>
+                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2">
+                  <polygon points="13,2 3,14 12,14 11,22 21,10 12,10 13,2"/>
+                </svg>
+              </div>
+              <h3 style={{ fontSize: '1.5rem', fontWeight: '600', marginBottom: '1rem', color: 'var(--accent)' }}>
+                Agility
+              </h3>
+              <p style={{ color: 'var(--text-secondary)', lineHeight: '1.6' }}>
+                Adapting swiftly to evolving digital challenges.
+              </p>
+            </div>
+            
+            <div style={{
+              background: 'white',
+              padding: '2rem',
+              borderRadius: '16px',
+              boxShadow: '0 4px 20px rgba(0, 0, 0, 0.08)',
+              textAlign: 'center',
+              border: '1px solid #E2E8F0',
+              transition: 'all 0.3s ease',
+              cursor: 'pointer',
+              position: 'relative',
+              overflow: 'hidden'
+            }}
+            onMouseEnter={(e) => {
+              e.currentTarget.style.transform = 'translateY(-8px)';
+              e.currentTarget.style.boxShadow = '0 12px 40px rgba(0, 0, 0, 0.15)';
+            }}
+            onMouseLeave={(e) => {
+              e.currentTarget.style.transform = 'translateY(0)';
+              e.currentTarget.style.boxShadow = '0 4px 20px rgba(0, 0, 0, 0.08)';
+            }}>
+              <div style={{ 
+                width: '80px', 
+                height: '80px', 
+                background: 'linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)',
+                borderRadius: '20px',
+                margin: '0 auto 1.5rem',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                boxShadow: '0 8px 25px rgba(67, 233, 123, 0.3)'
+              }}>
+                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2">
+                  <circle cx="12" cy="12" r="10"/>
+                  <path d="M8 14s1.5 2 4 2 4-2 4-2"/>
+                  <line x1="9" y1="9" x2="9.01" y2="9"/>
+                  <line x1="15" y1="9" x2="15.01" y2="9"/>
+                </svg>
+              </div>
+              <h3 style={{ fontSize: '1.5rem', fontWeight: '600', marginBottom: '1rem', color: 'var(--accent)' }}>
+                Impact
+              </h3>
+              <p style={{ color: 'var(--text-secondary)', lineHeight: '1.6' }}>
+                Designing for sustainability and social good.
+              </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Mission & Values */}
-      <section className="section bg-gray-50">
+      {/* Section 3: Meet Our Community */}
+      <section style={{
+        padding: '100px 0',
+        background: 'linear-gradient(135deg, var(--accent) 0%, #1A202C 100%)',
+        color: 'white',
+        textAlign: 'center'
+      }}>
         <div className="container">
-          <h2 className="text-center mb-12">Our Mission & Values</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="card text-center">
-              <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <svg className="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
-                </svg>
-              </div>
-              <h3 className="text-xl font-semibold mb-4">Innovation</h3>
-              <p className="text-gray-600">
-                We constantly push the boundaries of what's possible, embracing new technologies 
-                and methodologies to deliver cutting-edge solutions.
-              </p>
-            </div>
-            
-            <div className="card text-center">
-              <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <svg className="w-8 h-8 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                </svg>
-              </div>
-              <h3 className="text-xl font-semibold mb-4">Excellence</h3>
-              <p className="text-gray-600">
-                We maintain the highest standards in everything we do, ensuring quality and 
-                reliability in every project we undertake.
-              </p>
-            </div>
-            
-            <div className="card text-center">
-              <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <svg className="w-8 h-8 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
-                </svg>
-              </div>
-              <h3 className="text-xl font-semibold mb-4">Partnership</h3>
-              <p className="text-gray-600">
-                We believe in building strong, lasting relationships with our clients, working 
-                together as partners in their success.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Team Section */}
-      <section className="section bg-white">
-        <div className="container">
-          <h2 className="text-center mb-12">Meet Our Team</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="card text-center">
-              <div className="w-24 h-24 bg-gray-300 rounded-full mx-auto mb-4"></div>
-              <h3 className="text-xl font-semibold mb-2">Sarah Johnson</h3>
-              <p className="text-blue-600 mb-2">CEO & Founder</p>
-              <p className="text-gray-600">
-                With over 10 years of experience in the industry, Sarah leads our team with 
-                vision and passion for excellence.
-              </p>
-            </div>
-            
-            <div className="card text-center">
-              <div className="w-24 h-24 bg-gray-300 rounded-full mx-auto mb-4"></div>
-              <h3 className="text-xl font-semibold mb-2">Michael Chen</h3>
-              <p className="text-blue-600 mb-2">CTO</p>
-              <p className="text-gray-600">
-                Michael brings technical expertise and innovation to every project, ensuring 
-                our solutions are cutting-edge and reliable.
-              </p>
-            </div>
-            
-            <div className="card text-center">
-              <div className="w-24 h-24 bg-gray-300 rounded-full mx-auto mb-4"></div>
-              <h3 className="text-xl font-semibold mb-2">Emily Rodriguez</h3>
-              <p className="text-blue-600 mb-2">Head of Operations</p>
-              <p className="text-gray-600">
-                Emily ensures smooth operations and client satisfaction, making sure every 
-                project runs seamlessly from start to finish.
-              </p>
-            </div>
-          </div>
+          <h2 style={{
+            fontSize: '2.5rem',
+            fontWeight: '700',
+            marginBottom: '1.5rem',
+            fontFamily: 'Inter, sans-serif'
+          }}>
+            A Network of Visionaries
+          </h2>
+          <p style={{ 
+            fontSize: '1.25rem', 
+            marginBottom: '2.5rem',
+            color: 'rgba(255, 255, 255, 0.9)',
+            maxWidth: '600px',
+            margin: '0 auto 2.5rem',
+            lineHeight: '1.6'
+          }}>
+            From designers and developers to marketers and entrepreneurs, BePix connects over 200 professionals worldwide in a shared mission to build the future of digital experiences.
+          </p>
+          <Link href="/contact#get-in-touch" style={{
+            background: 'var(--secondary)',
+            color: 'var(--accent)',
+            padding: '1rem 2rem',
+            borderRadius: '8px',
+            textDecoration: 'none',
+            fontWeight: '600',
+            fontSize: '1.125rem',
+            transition: 'all 0.3s ease',
+            boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)'
+          }}>
+            Join the Community
+          </Link>
         </div>
       </section>
     </div>

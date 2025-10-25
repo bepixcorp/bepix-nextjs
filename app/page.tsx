@@ -1,75 +1,435 @@
+'use client';
+
 import Link from 'next/link'
 
 export default function Home() {
   return (
     <div>
       {/* Hero Section */}
-      <section className="hero">
+      <section style={{
+        background: 'linear-gradient(135deg, var(--primary) 0%, #F8F7F5 100%)',
+        padding: '120px 0',
+        textAlign: 'center',
+        position: 'relative',
+        overflow: 'hidden'
+      }}>
         <div className="container">
-          <h1>Welcome to BePix</h1>
-          <p>Professional services and innovative solutions for your business needs</p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link href="/services" className="btn">
-              Our Services
-            </Link>
-            <Link href="/about" className="btn" style={{ background: 'transparent', border: '2px solid white' }}>
-              Learn More
-            </Link>
+          <div style={{ maxWidth: '900px', margin: '0 auto' }}>
+            <h1 style={{
+              fontSize: '3.5rem',
+              fontWeight: '700',
+              marginBottom: '1.5rem',
+              color: 'var(--accent)',
+              fontFamily: 'Inter, sans-serif'
+            }}>
+              Beyond Pixel. Beyond Creativity.
+            </h1>
+            <p style={{
+              fontSize: '1.375rem',
+              color: 'var(--text-secondary)',
+              marginBottom: '2.5rem',
+              lineHeight: '1.6',
+              maxWidth: '700px',
+              margin: '0 auto 2.5rem'
+            }}>
+              Welcome to BePix—short for Beyond Pixel—a next-generation creative and technology ecosystem connecting professionals from design, technology, and innovation industries.
+            </p>
           </div>
         </div>
       </section>
 
-      {/* Features Section */}
-      <section className="section bg-white">
+      {/* Section 1: About Our BePix Community */}
+      <section style={{ padding: '100px 0', background: 'white' }}>
         <div className="container">
-          <h2>Why Choose BePix?</h2>
-          <div className="grid">
-            <div className="card text-center">
-              <div className="mb-4">
-                <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <svg className="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
-                  </svg>
-                </div>
-                <h3 className="text-xl font-semibold mb-2">Fast & Reliable</h3>
-                <p className="text-gray-600">We deliver results quickly and consistently, ensuring your projects stay on track.</p>
-              </div>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(500px, 1fr))', gap: '4rem', alignItems: 'center' }}>
+            <div>
+              <h2 style={{
+                fontSize: '2.5rem',
+                fontWeight: '700',
+                marginBottom: '1.5rem',
+                color: 'var(--accent)',
+                fontFamily: 'Inter, sans-serif'
+              }}>
+                A Living Ecosystem of Innovators
+              </h2>
+              <p style={{ fontSize: '1.125rem', color: 'var(--text-secondary)', marginBottom: '2rem', lineHeight: '1.6' }}>
+                BePix is not just a company—it's an ecosystem of creators, designers, developers, architects, strategists, engineers, and storytellers working together to bring ideas to life.
+              </p>
+              <Link href="/about" style={{
+                color: 'var(--secondary)',
+                textDecoration: 'none',
+                fontWeight: '600',
+                fontSize: '1.125rem'
+              }}>
+                Learn More →
+              </Link>
             </div>
-            
-            <div className="card text-center">
-              <div className="mb-4">
-                <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <svg className="w-8 h-8 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                  </svg>
+            <div style={{
+              background: '#F8F7F5',
+              padding: '3rem',
+              borderRadius: '12px',
+              boxShadow: '0 4px 6px rgba(0, 0, 0, 0.05)'
+            }}>
+              <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '2rem' }}>
+                <div style={{ 
+                  textAlign: 'center',
+                  padding: '1.5rem',
+                  borderRadius: '16px',
+                  background: 'white',
+                  boxShadow: '0 4px 20px rgba(0, 0, 0, 0.08)',
+                  transition: 'all 0.3s ease',
+                  cursor: 'pointer',
+                  border: '1px solid #E2E8F0'
+                }}
+                onMouseEnter={(e) => {
+                  e.currentTarget.style.transform = 'translateY(-8px)';
+                  e.currentTarget.style.boxShadow = '0 12px 40px rgba(0, 0, 0, 0.15)';
+                }}
+                onMouseLeave={(e) => {
+                  e.currentTarget.style.transform = 'translateY(0)';
+                  e.currentTarget.style.boxShadow = '0 4px 20px rgba(0, 0, 0, 0.08)';
+                }}>
+                  <div style={{ 
+                    width: '80px', 
+                    height: '80px', 
+                    background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+                    borderRadius: '20px',
+                    margin: '0 auto 1rem',
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    boxShadow: '0 8px 25px rgba(102, 126, 234, 0.3)'
+                  }}>
+                    <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2">
+                      <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                      <circle cx="9" cy="7" r="4"/>
+                      <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                      <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                    </svg>
+                  </div>
+                  <div style={{ fontSize: '2rem', fontWeight: '700', color: 'var(--secondary)', marginBottom: '0.5rem' }}>200+</div>
+                  <div style={{ fontSize: '0.875rem', color: 'var(--text-secondary)' }}>Professional Members</div>
                 </div>
-                <h3 className="text-xl font-semibold mb-2">Quality Assured</h3>
-                <p className="text-gray-600">Our team maintains the highest standards in all our services and deliverables.</p>
-              </div>
-            </div>
-            
-            <div className="card text-center">
-              <div className="mb-4">
-                <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <svg className="w-8 h-8 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
-                  </svg>
+                <div style={{ 
+                  textAlign: 'center',
+                  padding: '1.5rem',
+                  borderRadius: '16px',
+                  background: 'white',
+                  boxShadow: '0 4px 20px rgba(0, 0, 0, 0.08)',
+                  transition: 'all 0.3s ease',
+                  cursor: 'pointer',
+                  border: '1px solid #E2E8F0'
+                }}
+                onMouseEnter={(e) => {
+                  e.currentTarget.style.transform = 'translateY(-8px)';
+                  e.currentTarget.style.boxShadow = '0 12px 40px rgba(0, 0, 0, 0.15)';
+                }}
+                onMouseLeave={(e) => {
+                  e.currentTarget.style.transform = 'translateY(0)';
+                  e.currentTarget.style.boxShadow = '0 4px 20px rgba(0, 0, 0, 0.08)';
+                }}>
+                  <div style={{ 
+                    width: '80px', 
+                    height: '80px', 
+                    background: 'linear-gradient(135deg, #f093fb 0%, #f5576c 100%)',
+                    borderRadius: '20px',
+                    margin: '0 auto 1rem',
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    boxShadow: '0 8px 25px rgba(240, 147, 251, 0.3)'
+                  }}>
+                    <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2">
+                      <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
+                      <circle cx="8.5" cy="8.5" r="1.5"/>
+                      <polyline points="21,15 16,10 5,21"/>
+                    </svg>
+                  </div>
+                  <div style={{ fontSize: '2rem', fontWeight: '700', color: 'var(--secondary)', marginBottom: '0.5rem' }}>50+</div>
+                  <div style={{ fontSize: '0.875rem', color: 'var(--text-secondary)' }}>Designers</div>
                 </div>
-                <h3 className="text-xl font-semibold mb-2">Expert Team</h3>
-                <p className="text-gray-600">Our experienced professionals bring years of expertise to every project.</p>
+                <div style={{ 
+                  textAlign: 'center',
+                  padding: '1.5rem',
+                  borderRadius: '16px',
+                  background: 'white',
+                  boxShadow: '0 4px 20px rgba(0, 0, 0, 0.08)',
+                  transition: 'all 0.3s ease',
+                  cursor: 'pointer',
+                  border: '1px solid #E2E8F0'
+                }}
+                onMouseEnter={(e) => {
+                  e.currentTarget.style.transform = 'translateY(-8px)';
+                  e.currentTarget.style.boxShadow = '0 12px 40px rgba(0, 0, 0, 0.15)';
+                }}
+                onMouseLeave={(e) => {
+                  e.currentTarget.style.transform = 'translateY(0)';
+                  e.currentTarget.style.boxShadow = '0 4px 20px rgba(0, 0, 0, 0.08)';
+                }}>
+                  <div style={{ 
+                    width: '80px', 
+                    height: '80px', 
+                    background: 'linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)',
+                    borderRadius: '20px',
+                    margin: '0 auto 1rem',
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    boxShadow: '0 8px 25px rgba(79, 172, 254, 0.3)'
+                  }}>
+                    <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2">
+                      <rect x="2" y="3" width="20" height="14" rx="2" ry="2"/>
+                      <line x1="8" y1="21" x2="16" y2="21"/>
+                      <line x1="12" y1="17" x2="12" y2="21"/>
+                    </svg>
+                  </div>
+                  <div style={{ fontSize: '2rem', fontWeight: '700', color: 'var(--secondary)', marginBottom: '0.5rem' }}>10+</div>
+                  <div style={{ fontSize: '0.875rem', color: 'var(--text-secondary)' }}>Developers</div>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* CTA Section */}
-      <section className="section bg-gray-50">
-        <div className="container text-center">
-          <h2>Ready to Get Started?</h2>
-          <p className="text-xl text-gray-600 mb-8">Let's work together to achieve your goals</p>
-          <Link href="/contact" className="btn">
-            Contact Us Today
+      {/* Section 2: Our Core Focus */}
+      <section style={{ padding: '100px 0', background: '#F8F7F5' }}>
+        <div className="container">
+          <h2 style={{
+            fontSize: '2.5rem',
+            fontWeight: '700',
+            textAlign: 'center',
+            marginBottom: '4rem',
+            color: 'var(--accent)',
+            fontFamily: 'Inter, sans-serif',
+            lineHeight: '1.2',
+            display: 'flex',
+            flexWrap: 'wrap',
+            justifyContent: 'center',
+            alignItems: 'center',
+            gap: '1rem'
+          }}>
+            <span>Design</span>
+            <span style={{ color: 'var(--text-light)', fontSize: '1.5rem' }}>•</span>
+            <span>Develop</span>
+            <span style={{ color: 'var(--text-light)', fontSize: '1.5rem' }}>•</span>
+            <span>Innovate</span>
+            <span style={{ color: 'var(--text-light)', fontSize: '1.5rem' }}>•</span>
+            <span>Grow</span>
+          </h2>
+          
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: '2rem' }}>
+            <div style={{
+              background: 'white',
+              padding: '2rem',
+              borderRadius: '16px',
+              boxShadow: '0 4px 20px rgba(0, 0, 0, 0.08)',
+              textAlign: 'center',
+              border: '1px solid #E2E8F0',
+              transition: 'all 0.3s ease',
+              cursor: 'pointer',
+              position: 'relative',
+              overflow: 'hidden'
+            }}
+            onMouseEnter={(e) => {
+              e.currentTarget.style.transform = 'translateY(-8px)';
+              e.currentTarget.style.boxShadow = '0 12px 40px rgba(0, 0, 0, 0.15)';
+            }}
+            onMouseLeave={(e) => {
+              e.currentTarget.style.transform = 'translateY(0)';
+              e.currentTarget.style.boxShadow = '0 4px 20px rgba(0, 0, 0, 0.08)';
+            }}>
+              <div style={{ 
+                width: '80px', 
+                height: '80px', 
+                background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+                borderRadius: '20px',
+                margin: '0 auto 1.5rem',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                boxShadow: '0 8px 25px rgba(102, 126, 234, 0.3)'
+              }}>
+                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2">
+                  <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
+                  <circle cx="8.5" cy="8.5" r="1.5"/>
+                  <polyline points="21,15 16,10 5,21"/>
+                </svg>
+              </div>
+              <h3 style={{ fontSize: '1.5rem', fontWeight: '600', marginBottom: '1rem', color: 'var(--accent)' }}>Design</h3>
+              <p style={{ color: 'var(--text-secondary)', lineHeight: '1.6' }}>
+                Visual storytelling through brand identity, user interface, and experience design.
+              </p>
+            </div>
+            
+            <div style={{
+              background: 'white',
+              padding: '2rem',
+              borderRadius: '16px',
+              boxShadow: '0 4px 20px rgba(0, 0, 0, 0.08)',
+              textAlign: 'center',
+              border: '1px solid #E2E8F0',
+              transition: 'all 0.3s ease',
+              cursor: 'pointer',
+              position: 'relative',
+              overflow: 'hidden'
+            }}
+            onMouseEnter={(e) => {
+              e.currentTarget.style.transform = 'translateY(-8px)';
+              e.currentTarget.style.boxShadow = '0 12px 40px rgba(0, 0, 0, 0.15)';
+            }}
+            onMouseLeave={(e) => {
+              e.currentTarget.style.transform = 'translateY(0)';
+              e.currentTarget.style.boxShadow = '0 4px 20px rgba(0, 0, 0, 0.08)';
+            }}>
+              <div style={{ 
+                width: '80px', 
+                height: '80px', 
+                background: 'linear-gradient(135deg, #f093fb 0%, #f5576c 100%)',
+                borderRadius: '20px',
+                margin: '0 auto 1.5rem',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                boxShadow: '0 8px 25px rgba(240, 147, 251, 0.3)'
+              }}>
+                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2">
+                  <rect x="2" y="3" width="20" height="14" rx="2" ry="2"/>
+                  <line x1="8" y1="21" x2="16" y2="21"/>
+                  <line x1="12" y1="17" x2="12" y2="21"/>
+                </svg>
+              </div>
+              <h3 style={{ fontSize: '1.5rem', fontWeight: '600', marginBottom: '1rem', color: 'var(--accent)' }}>Development</h3>
+              <p style={{ color: 'var(--text-secondary)', lineHeight: '1.6' }}>
+                Modern, scalable web and mobile applications tailored to your goals.
+              </p>
+            </div>
+            
+            <div style={{
+              background: 'white',
+              padding: '2rem',
+              borderRadius: '16px',
+              boxShadow: '0 4px 20px rgba(0, 0, 0, 0.08)',
+              textAlign: 'center',
+              border: '1px solid #E2E8F0',
+              transition: 'all 0.3s ease',
+              cursor: 'pointer',
+              position: 'relative',
+              overflow: 'hidden'
+            }}
+            onMouseEnter={(e) => {
+              e.currentTarget.style.transform = 'translateY(-8px)';
+              e.currentTarget.style.boxShadow = '0 12px 40px rgba(0, 0, 0, 0.15)';
+            }}
+            onMouseLeave={(e) => {
+              e.currentTarget.style.transform = 'translateY(0)';
+              e.currentTarget.style.boxShadow = '0 4px 20px rgba(0, 0, 0, 0.08)';
+            }}>
+              <div style={{ 
+                width: '80px', 
+                height: '80px', 
+                background: 'linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)',
+                borderRadius: '20px',
+                margin: '0 auto 1.5rem',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                boxShadow: '0 8px 25px rgba(79, 172, 254, 0.3)'
+              }}>
+                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2">
+                  <path d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 1 1 7.072 0l-.548.547A3.374 3.374 0 0 0 14 18.469V19a2 2 0 1 1-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/>
+                </svg>
+              </div>
+              <h3 style={{ fontSize: '1.5rem', fontWeight: '600', marginBottom: '1rem', color: 'var(--accent)' }}>Innovation</h3>
+              <p style={{ color: 'var(--text-secondary)', lineHeight: '1.6' }}>
+                Creative technologies that push boundaries and deliver unique solutions.
+              </p>
+            </div>
+            
+            <div style={{
+              background: 'white',
+              padding: '2rem',
+              borderRadius: '16px',
+              boxShadow: '0 4px 20px rgba(0, 0, 0, 0.08)',
+              textAlign: 'center',
+              border: '1px solid #E2E8F0',
+              transition: 'all 0.3s ease',
+              cursor: 'pointer',
+              position: 'relative',
+              overflow: 'hidden'
+            }}
+            onMouseEnter={(e) => {
+              e.currentTarget.style.transform = 'translateY(-8px)';
+              e.currentTarget.style.boxShadow = '0 12px 40px rgba(0, 0, 0, 0.15)';
+            }}
+            onMouseLeave={(e) => {
+              e.currentTarget.style.transform = 'translateY(0)';
+              e.currentTarget.style.boxShadow = '0 4px 20px rgba(0, 0, 0, 0.08)';
+            }}>
+              <div style={{ 
+                width: '80px', 
+                height: '80px', 
+                background: 'linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)',
+                borderRadius: '20px',
+                margin: '0 auto 1.5rem',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                boxShadow: '0 8px 25px rgba(67, 233, 123, 0.3)'
+              }}>
+                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2">
+                  <line x1="18" y1="6" x2="6" y2="18"/>
+                  <line x1="6" y1="6" x2="18" y2="18"/>
+                  <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                </svg>
+              </div>
+              <h3 style={{ fontSize: '1.5rem', fontWeight: '600', marginBottom: '1rem', color: 'var(--accent)' }}>Growth</h3>
+              <p style={{ color: 'var(--text-secondary)', lineHeight: '1.6' }}>
+                Strategic digital marketing and brand elevation for measurable results.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Section 3: Join the Ecosystem */}
+      <section style={{
+        padding: '100px 0',
+        background: 'linear-gradient(135deg, var(--accent) 0%, #1A202C 100%)',
+        color: 'white',
+        textAlign: 'center'
+      }}>
+        <div className="container">
+          <h2 style={{
+            fontSize: '2.5rem',
+            fontWeight: '700',
+            marginBottom: '1.5rem',
+            fontFamily: 'Inter, sans-serif'
+          }}>
+            Collaborate. Create. Evolve.
+          </h2>
+          <p style={{ 
+            fontSize: '1.25rem', 
+            marginBottom: '2.5rem',
+            color: 'rgba(255, 255, 255, 0.9)',
+            maxWidth: '600px',
+            margin: '0 auto 2.5rem',
+            lineHeight: '1.6'
+          }}>
+            Whether you're a creative professional, a business owner, or a tech visionary, BePix connects you to a collaborative ecosystem built to help you succeed.
+          </p>
+          <Link href="/contact#get-in-touch" style={{
+            background: 'var(--secondary)',
+            color: 'var(--accent)',
+            padding: '1rem 2rem',
+            borderRadius: '8px',
+            textDecoration: 'none',
+            fontWeight: '600',
+            fontSize: '1.125rem',
+            transition: 'all 0.3s ease',
+            boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)'
+          }}>
+            Become a Member
           </Link>
         </div>
       </section>
