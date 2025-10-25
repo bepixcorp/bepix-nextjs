@@ -43,7 +43,7 @@ export default function Navigation() {
           </Link>
           
           {/* Desktop Menu */}
-          <div style={{ 
+          <div className="desktop-menu" style={{ 
             display: 'flex', 
             justifyContent: 'center',
             alignItems: 'center',
@@ -93,7 +93,7 @@ export default function Navigation() {
           </div>
           
           {/* Contact Button */}
-          <div style={{ flex: '0 0 auto' }}>
+          <div className="desktop-contact" style={{ flex: '0 0 auto' }}>
             <Link href="/contact" style={{
               background: 'linear-gradient(135deg, #FCB03A 0%, #FF7426 100%)',
               color: 'white',
@@ -112,11 +112,12 @@ export default function Navigation() {
           <button
             className="mobile-menu-btn"
             style={{ 
-              display: 'none',
+              display: 'block',
               background: 'none',
               border: 'none',
               cursor: 'pointer',
-              padding: '0.5rem'
+              padding: '0.5rem',
+              flex: '0 0 auto'
             }}
             onClick={() => setIsMenuOpen(!isMenuOpen)}
           >
@@ -131,16 +132,48 @@ export default function Navigation() {
           <div style={{ 
             display: 'block', 
             padding: '1.5rem 0', 
-            borderTop: '1px solid rgba(198, 251, 80, 0.1)',
-            background: 'var(--primary)'
+            borderTop: '1px solid rgba(0, 0, 0, 0.1)',
+            background: 'white',
+            boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)'
           }}>
             <div style={{ 
               display: 'flex', 
               flexDirection: 'column', 
               gap: '1.5rem',
               maxWidth: '1200px',
-              margin: '0 auto'
+              margin: '0 auto',
+              padding: '0 1rem'
             }}>
+              {/* Mobile Menu Header */}
+              <div style={{
+                display: 'flex',
+                justifyContent: 'space-between',
+                alignItems: 'center',
+                marginBottom: '1rem'
+              }}>
+                <span style={{
+                  fontSize: '1.125rem',
+                  fontWeight: '600',
+                  color: 'var(--accent)'
+                }}>
+                  Menu
+                </span>
+                <button
+                  onClick={() => setIsMenuOpen(false)}
+                  style={{
+                    background: 'none',
+                    border: 'none',
+                    cursor: 'pointer',
+                    padding: '0.5rem',
+                    color: 'var(--accent)'
+                  }}
+                >
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                  </svg>
+                </button>
+              </div>
               <Link href="/" style={{
                 color: 'var(--text-secondary)',
                 fontWeight: '500',

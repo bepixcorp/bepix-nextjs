@@ -632,3 +632,32 @@ footer .social-links a:hover {
   font-weight: bold;
   margin-right: 0.5rem;
 }
+
+/* Mobile Navigation Styles */
+@media (max-width: 768px) {
+  .desktop-menu {
+    display: none !important;
+  }
+  
+  .desktop-contact {
+    display: none !important;
+  }
+  
+  .mobile-menu-btn {
+    display: block !important;
+  }
+}
+
+@media (min-width: 769px) {
+  .desktop-menu {
+    display: flex !important;
+  }
+  
+  .desktop-contact {
+    display: block !important;
+  }
+  
+  .mobile-menu-btn {
+    display: none !important;
+  }
+}
