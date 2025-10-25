@@ -33,34 +33,6 @@ export default function Services() {
             }}>
               From creative design to technical development and strategic marketing, we offer end-to-end digital services that drive growth and innovation for your business.
             </p>
-            <div style={{ display: 'flex', gap: '1.5rem', flexWrap: 'wrap', justifyContent: 'center' }}>
-              <Link href="#services" style={{
-                background: 'var(--secondary)',
-                color: 'var(--accent)',
-                padding: '1rem 2rem',
-                borderRadius: '8px',
-                textDecoration: 'none',
-                fontWeight: '600',
-                fontSize: '1.125rem',
-                transition: 'all 0.3s ease',
-                boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)'
-              }}>
-                View All Services
-              </Link>
-              <Link href="/contact#get-in-touch" style={{
-                background: 'transparent',
-                color: 'var(--accent)',
-                padding: '1rem 2rem',
-                borderRadius: '8px',
-                textDecoration: 'none',
-                fontWeight: '600',
-                fontSize: '1.125rem',
-                border: '2px solid var(--accent)',
-                transition: 'all 0.3s ease'
-              }}>
-                Get Started
-              </Link>
-            </div>
           </div>
         </div>
       </section>
