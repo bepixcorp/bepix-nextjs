@@ -428,7 +428,222 @@ export default function AboutUs() {
         </div>
       </section>
 
-      {/* Section 4: Our Core Values */}
+      {/* Section 4: Experience That Speaks for Itself */}
+      <section style={{ padding: '100px 0', background: 'white' }}>
+        <div className="container">
+          <div style={{ maxWidth: '1000px', margin: '0 auto', textAlign: 'center' }}>
+            <h2 style={{
+              fontSize: '2.5rem',
+              fontWeight: '700',
+              marginBottom: '2rem',
+              color: 'var(--accent)',
+            }}>
+              Experience That Speaks for Itself
+            </h2>
+            <p style={{
+              fontSize: '1.25rem',
+              color: 'var(--text-secondary)',
+              lineHeight: '1.6',
+              marginBottom: '4rem',
+              maxWidth: '800px',
+              margin: '0 auto 4rem'
+            }}>
+              At Bepix, our story is built on dedication, innovation, and a passion to help businesses grow.
+              From humble beginnings to becoming one of the most sought-after digital marketing agencies, our journey is fueled by a simple goal — to deliver excellence that empowers brands to succeed.
+            </p>
+            
+            <div style={{
+              background: 'white',
+              borderRadius: '20px',
+              boxShadow: '0 8px 32px rgba(0, 0, 0, 0.1)',
+              border: '1px solid #E2E8F0',
+              overflow: 'hidden'
+            }}>
+              <div style={{
+                background: 'var(--accent)',
+                color: 'white',
+                padding: '1.5rem',
+                textAlign: 'center'
+              }}>
+                <h3 style={{
+                  fontSize: '1.5rem',
+                  fontWeight: '700',
+                  margin: '0'
+                }}>
+                  Our Expertise
+                </h3>
+              </div>
+              
+              <div style={{ padding: '0' }}>
+                <div style={{
+                  display: 'grid',
+                  gridTemplateColumns: '1fr',
+                  gap: '0'
+                }}>
+                  {/* Header Row */}
+                  <div style={{
+                    display: 'grid',
+                    gridTemplateColumns: '2fr 1fr',
+                    background: '#F8F7F5',
+                    borderBottom: '1px solid #E2E8F0'
+                  }}>
+                    <div style={{
+                      padding: '1.5rem',
+                      fontWeight: '600',
+                      color: 'var(--accent)',
+                      borderRight: '1px solid #E2E8F0'
+                    }}>
+                      Expertise
+                    </div>
+                    <div style={{
+                      padding: '1.5rem',
+                      fontWeight: '600',
+                      color: 'var(--accent)',
+                      textAlign: 'center'
+                    }}>
+                      Efficiency Rate
+                    </div>
+                  </div>
+                  
+                  {/* Data Rows */}
+                  <div style={{
+                    display: 'grid',
+                    gridTemplateColumns: '2fr 1fr',
+                    borderBottom: '1px solid #E2E8F0'
+                  }}>
+                    <div style={{
+                      padding: '1.5rem',
+                      color: 'var(--text-primary)',
+                      borderRight: '1px solid #E2E8F0'
+                    }}>
+                      Digital Marketing
+                    </div>
+                    <div style={{
+                      padding: '1.5rem',
+                      color: 'var(--accent)',
+                      fontWeight: '600',
+                      textAlign: 'center'
+                    }}>
+                      98%
+                    </div>
+                  </div>
+                  
+                  <div style={{
+                    display: 'grid',
+                    gridTemplateColumns: '2fr 1fr',
+                    borderBottom: '1px solid #E2E8F0'
+                  }}>
+                    <div style={{
+                      padding: '1.5rem',
+                      color: 'var(--text-primary)',
+                      borderRight: '1px solid #E2E8F0'
+                    }}>
+                      Website Development
+                    </div>
+                    <div style={{
+                      padding: '1.5rem',
+                      color: 'var(--accent)',
+                      fontWeight: '600',
+                      textAlign: 'center'
+                    }}>
+                      99%
+                    </div>
+                  </div>
+                  
+                  <div style={{
+                    display: 'grid',
+                    gridTemplateColumns: '2fr 1fr',
+                    borderBottom: '1px solid #E2E8F0'
+                  }}>
+                    <div style={{
+                      padding: '1.5rem',
+                      color: 'var(--text-primary)',
+                      borderRight: '1px solid #E2E8F0'
+                    }}>
+                      Graphic Design
+                    </div>
+                    <div style={{
+                      padding: '1.5rem',
+                      color: 'var(--accent)',
+                      fontWeight: '600',
+                      textAlign: 'center'
+                    }}>
+                      100%
+                    </div>
+                  </div>
+                  
+                  <div style={{
+                    display: 'grid',
+                    gridTemplateColumns: '2fr 1fr',
+                    borderBottom: '1px solid #E2E8F0'
+                  }}>
+                    <div style={{
+                      padding: '1.5rem',
+                      color: 'var(--text-primary)',
+                      borderRight: '1px solid #E2E8F0'
+                    }}>
+                      Animation
+                    </div>
+                    <div style={{
+                      padding: '1.5rem',
+                      color: 'var(--accent)',
+                      fontWeight: '600',
+                      textAlign: 'center'
+                    }}>
+                      99%
+                    </div>
+                  </div>
+                  
+                  <div style={{
+                    display: 'grid',
+                    gridTemplateColumns: '2fr 1fr',
+                    borderBottom: '1px solid #E2E8F0'
+                  }}>
+                    <div style={{
+                      padding: '1.5rem',
+                      color: 'var(--text-primary)',
+                      borderRight: '1px solid #E2E8F0'
+                    }}>
+                      3D Modelling
+                    </div>
+                    <div style={{
+                      padding: '1.5rem',
+                      color: 'var(--accent)',
+                      fontWeight: '600',
+                      textAlign: 'center'
+                    }}>
+                      99%
+                    </div>
+                  </div>
+                  
+                  <div style={{
+                    display: 'grid',
+                    gridTemplateColumns: '2fr 1fr'
+                  }}>
+                    <div style={{
+                      padding: '1.5rem',
+                      color: 'var(--text-primary)',
+                      borderRight: '1px solid #E2E8F0'
+                    }}>
+                      Photography
+                    </div>
+                    <div style={{
+                      padding: '1.5rem',
+                      color: 'var(--accent)',
+                      fontWeight: '600',
+                      textAlign: 'center'
+                    }}>
+                      98%
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Section 5: Our Core Values */}
       <section style={{ padding: '100px 0', background: '#F8F7F5' }}>
         <div className="container">
           <div style={{ maxWidth: '1000px', margin: '0 auto', textAlign: 'center' }}>
