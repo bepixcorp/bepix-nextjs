@@ -21,7 +21,7 @@ export default function Services() {
               marginBottom: '1.5rem',
               color: 'var(--accent)',
             }}>
-              Empowering Businesses with Design, Technology & Growth
+              Comprehensive Digital Solutions
             </h1>
             <p style={{
               fontSize: '1.375rem',
@@ -31,7 +31,7 @@ export default function Services() {
               maxWidth: '700px',
               margin: '0 auto 2.5rem'
             }}>
-              At BePix, we combine creativity, development, and strategy to deliver impactful digital experiences. Our services are crafted to help startups, organizations, and enterprises design, build, and scale effectively.
+              From creative design to technical development and strategic marketing, we offer end-to-end digital services that drive growth and innovation for your business.
             </p>
             <div style={{ display: 'flex', gap: '1.5rem', flexWrap: 'wrap', justifyContent: 'center' }}>
               <Link href="#services" style={{
@@ -45,7 +45,7 @@ export default function Services() {
                 transition: 'all 0.3s ease',
                 boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)'
               }}>
-                Explore Services
+                View All Services
               </Link>
               <Link href="/contact#get-in-touch" style={{
                 background: 'transparent',
@@ -58,7 +58,7 @@ export default function Services() {
                 border: '2px solid var(--accent)',
                 transition: 'all 0.3s ease'
               }}>
-                Get a Quote
+                Get Started
               </Link>
             </div>
           </div>
