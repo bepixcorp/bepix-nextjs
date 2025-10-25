@@ -353,7 +353,10 @@ export default function AboutUs() {
                   fontSize: '4rem', 
                   fontWeight: '800', 
                   marginBottom: '1rem',
-                  color: 'var(--accent)'
+                  background: 'linear-gradient(135deg, #FCB03A 0%, #FF7426 100%)',
+                  WebkitBackgroundClip: 'text',
+                  backgroundClip: 'text',
+                  color: 'transparent'
                 }}>
                   60+
                 </div>
@@ -399,7 +402,10 @@ export default function AboutUs() {
                   fontSize: '4rem', 
                   fontWeight: '800', 
                   marginBottom: '1rem',
-                  color: 'var(--accent)'
+                  background: 'linear-gradient(135deg, #FCB03A 0%, #FF7426 100%)',
+                  WebkitBackgroundClip: 'text',
+                  backgroundClip: 'text',
+                  color: 'transparent'
                 }}>
                   20+
                 </div>
@@ -445,7 +451,10 @@ export default function AboutUs() {
                   fontSize: '4rem', 
                   fontWeight: '800', 
                   marginBottom: '1rem',
-                  color: 'var(--accent)'
+                  background: 'linear-gradient(135deg, #FCB03A 0%, #FF7426 100%)',
+                  WebkitBackgroundClip: 'text',
+                  backgroundClip: 'text',
+                  color: 'transparent'
                 }}>
                   15+
                 </div>

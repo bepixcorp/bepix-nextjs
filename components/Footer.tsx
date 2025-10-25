@@ -150,8 +150,8 @@ export default function Footer() {
                 🌐 www.bepix.in
               </p>
               <Link href="/contact" style={{
-                background: 'var(--secondary)',
-                color: 'var(--accent)',
+                background: 'linear-gradient(135deg, #FCB03A 0%, #FF7426 100%)',
+                color: 'white',
                 padding: '0.75rem 1.5rem',
                 borderRadius: '8px',
                 textDecoration: 'none',
