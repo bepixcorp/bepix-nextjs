@@ -763,10 +763,6 @@ export default function Home() {
       {/* Section 3: Join the Ecosystem */}
       <section style={{
         padding: '100px 0',
-        background: '#FCB03A',
-        background: '-webkit-linear-gradient(135deg, #FCB03A 0%, #FF7426 100%)',
-        background: '-moz-linear-gradient(135deg, #FCB03A 0%, #FF7426 100%)',
-        background: '-o-linear-gradient(135deg, #FCB03A 0%, #FF7426 100%)',
         background: 'linear-gradient(135deg, #FCB03A 0%, #FF7426 100%)',
         color: 'white',
         textAlign: 'center',
