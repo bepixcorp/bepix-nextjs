@@ -37,46 +37,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Section 1: Bepix Creative Agency */}
-      <section style={{ padding: '100px 0', background: '#F8F7F5' }}>
-        <div className="container">
-           <div style={{ maxWidth: '900px', margin: '0 auto', textAlign: 'center', padding: '0 2rem' }}>
-            <h2 style={{
-              fontSize: '2.5rem',
-              fontWeight: '700',
-              marginBottom: '2rem',
-              color: 'var(--accent)',
-            }}>
-              Bepix Creative Agency
-            </h2>
-            <p style={{
-              fontSize: '1.25rem',
-              color: 'var(--text-secondary)',
-              lineHeight: '1.6',
-              marginBottom: '2rem'
-            }}>
-              Bepix Creative Agency delivers world-class digital marketing, branding, and design solutions to businesses across India and beyond.
-              We are a team of skilled creative professionals driven by innovation, precision, and passion — focused on crafting impactful digital experiences that elevate brands.
-            </p>
-            <p style={{
-              fontSize: '1.25rem',
-              color: 'var(--text-secondary)',
-              lineHeight: '1.6',
-              marginBottom: '2rem'
-            }}>
-              With every project, our goal is simple: to make your business stand out and stay ahead in the digital world.
-              Whether you're a startup or an established enterprise, we provide strategic, visually stunning, and results-oriented solutions that enhance your brand's visibility and competitiveness.
-            </p>
-            <p style={{
-              fontSize: '1.25rem',
-              color: 'var(--text-secondary)',
-              lineHeight: '1.6'
-            }}>
-              At Bepix, creativity meets consistency. We ensure on-time delivery, premium quality, and a collaborative process that turns your ideas into measurable success.
-            </p>
-          </div>
-        </div>
-      </section>
 
       {/* Section 2: About Our BePix Community */}
       <section style={{ padding: '100px 0', background: 'white' }}>
@@ -110,13 +70,7 @@ export default function Home() {
                 Learn More →
               </Link>
             </div>
-            <div style={{
-              background: '#F8F7F5',
-              padding: '3rem',
-              borderRadius: '12px',
-              boxShadow: '0 4px 6px rgba(0, 0, 0, 0.05)'
-            }}>
-              <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '2rem' }}>
+            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '2rem' }}>
                 <div style={{ 
                   textAlign: 'center',
                   padding: '1.5rem',
@@ -269,7 +223,6 @@ export default function Home() {
                   <div style={{ fontSize: '0.875rem', color: 'var(--text-secondary)' }}>Digital Marketers</div>
                 </div>
               </div>
-            </div>
           </div>
         </div>
       </section>

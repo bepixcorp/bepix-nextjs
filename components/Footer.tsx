@@ -146,9 +146,6 @@ export default function Footer() {
               <p style={{ marginBottom: '0.75rem', display: 'flex', alignItems: 'center' }}>
                 📞 9344148837
               </p>
-              <p style={{ marginBottom: '1rem', display: 'flex', alignItems: 'center' }}>
-                🌐 www.bepix.in
-              </p>
               <Link href="/contact" style={{
                 background: 'linear-gradient(135deg, #FCB03A 0%, #FF7426 100%)',
                 color: 'white',
