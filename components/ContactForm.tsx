@@ -30,6 +30,19 @@ export default function ContactForm() {
     }))
   }
 
+  const normalizeWebsiteUrl = (url: string): string => {
+    if (!url.trim()) return url
+    
+    let normalizedUrl = url.trim()
+    
+    // If it doesn't start with http:// or https://, add https://
+    if (!normalizedUrl.startsWith('http://') && !normalizedUrl.startsWith('https://')) {
+      normalizedUrl = 'https://' + normalizedUrl
+    }
+    
+    return normalizedUrl
+  }
+
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
     setIsSubmitting(true)
@@ -57,7 +70,7 @@ export default function ContactForm() {
             phone: formData.phone.trim(),
             email: formData.email.trim() || null,
             company: formData.company.trim() || null,
-            website: formData.website.trim() || null,
+            website: formData.website.trim() ? normalizeWebsiteUrl(formData.website.trim()) : null,
             created_at: new Date().toISOString()
           }
         ])
@@ -256,11 +269,11 @@ export default function ContactForm() {
             Existing Website URL
           </label>
           <input
-            type="url"
+            type="text"
             name="website"
             value={formData.website}
             onChange={handleInputChange}
-            placeholder="https://yourwebsite.com"
+            placeholder="www.yourwebsite.com, https://yourwebsite.com, or yourwebsite.com"
             style={{
               width: '100%',
               padding: '0.75rem',
@@ -273,6 +286,14 @@ export default function ContactForm() {
             onFocus={(e) => e.target.style.borderColor = 'var(--accent)'}
             onBlur={(e) => e.target.style.borderColor = '#E5E7EB'}
           />
+          <p style={{
+            fontSize: '0.875rem',
+            color: 'var(--text-secondary)',
+            marginTop: '0.5rem',
+            fontStyle: 'italic'
+          }}>
+            Accepts: www.example.com, https://example.com, example.com, or example.in
+          </p>
         </div>
 
         <button
