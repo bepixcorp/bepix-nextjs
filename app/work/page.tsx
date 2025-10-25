@@ -42,7 +42,7 @@ export default function Work() {
         <div className="container">
           <div style={{ maxWidth: '900px', margin: '0 auto', textAlign: 'center', padding: '0 2rem' }}>
             <h2 style={{
-              fontSize: 'clamp(2rem, 5vw, 3.5rem)',
+              fontSize: 'clamp(1.75rem, 4vw, 2.5rem)',
               fontWeight: '700',
               marginBottom: '1.5rem',
               color: 'var(--accent)',
@@ -50,7 +50,7 @@ export default function Work() {
               Empowering Businesses with Design, Technology & Growth
             </h2>
             <p style={{
-              fontSize: 'clamp(1rem, 3vw, 1.375rem)',
+              fontSize: 'clamp(1rem, 2.5vw, 1.25rem)',
               color: 'var(--text-secondary)',
               marginBottom: '2.5rem',
               lineHeight: '1.6',

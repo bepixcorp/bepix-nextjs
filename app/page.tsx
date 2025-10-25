@@ -16,7 +16,7 @@ export default function Home() {
         <div className="container">
            <div style={{ maxWidth: '900px', margin: '0 auto', padding: '0 2rem' }}>
             <h1 style={{
-              fontSize: 'clamp(2rem, 5vw, 3.5rem)',
+              fontSize: 'clamp(1.75rem, 4vw, 2.5rem)',
               fontWeight: '700',
               marginBottom: '1.5rem',
               color: 'var(--accent)',
@@ -24,7 +24,7 @@ export default function Home() {
               Beyond Pixel. Beyond Creativity.
             </h1>
             <p style={{
-              fontSize: 'clamp(1rem, 3vw, 1.375rem)',
+              fontSize: 'clamp(1rem, 2.5vw, 1.25rem)',
               color: 'var(--text-secondary)',
               marginBottom: '2.5rem',
               lineHeight: '1.6',
