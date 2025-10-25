@@ -129,7 +129,7 @@ export default function AboutUs() {
                   justifyContent: 'center',
                   boxShadow: '0 6px 20px rgba(0, 0, 0, 0.1)'
                 }}>
-                  <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="black" strokeWidth="2">
+                  <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#6B7280" strokeWidth="2">
                     <circle cx="12" cy="12" r="10"/>
                     <polyline points="12,6 12,12 16,14"/>
                   </svg>
@@ -170,7 +170,7 @@ export default function AboutUs() {
                   justifyContent: 'center',
                   boxShadow: '0 6px 20px rgba(0, 0, 0, 0.1)'
                 }}>
-                  <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="black" strokeWidth="2">
+                  <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#6B7280" strokeWidth="2">
                     <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
                     <path d="M8 12l2 2 4-4"/>
                   </svg>
@@ -211,7 +211,7 @@ export default function AboutUs() {
                   justifyContent: 'center',
                   boxShadow: '0 6px 20px rgba(0, 0, 0, 0.1)'
                 }}>
-                  <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="black" strokeWidth="2">
+                  <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#6B7280" strokeWidth="2">
                     <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
                     <circle cx="9" cy="7" r="4"/>
                     <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
@@ -254,7 +254,7 @@ export default function AboutUs() {
                   justifyContent: 'center',
                   boxShadow: '0 6px 20px rgba(67, 233, 123, 0.3)'
                 }}>
-                  <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="black" strokeWidth="2">
+                  <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#6B7280" strokeWidth="2">
                     <path d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 1 1 7.072 0l-.548.547A3.374 3.374 0 0 0 14 18.469V19a2 2 0 1 1-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/>
                   </svg>
                 </div>
@@ -505,7 +505,7 @@ export default function AboutUs() {
                     <div style={{
                       width: '98%',
                       height: '100%',
-                      background: 'linear-gradient(90deg, #FF6B35 0%, #F7931E 100%)',
+                      background: 'var(--accent)',
                       borderRadius: '4px',
                       transition: 'width 0.3s ease'
                     }}></div>
@@ -545,7 +545,7 @@ export default function AboutUs() {
                     <div style={{
                       width: '99%',
                       height: '100%',
-                      background: 'linear-gradient(90deg, #FF6B35 0%, #F7931E 100%)',
+                      background: 'var(--accent)',
                       borderRadius: '4px',
                       transition: 'width 0.3s ease'
                     }}></div>
@@ -585,7 +585,7 @@ export default function AboutUs() {
                     <div style={{
                       width: '100%',
                       height: '100%',
-                      background: 'linear-gradient(90deg, #FF6B35 0%, #F7931E 100%)',
+                      background: 'var(--accent)',
                       borderRadius: '4px',
                       transition: 'width 0.3s ease'
                     }}></div>
@@ -625,7 +625,7 @@ export default function AboutUs() {
                     <div style={{
                       width: '99%',
                       height: '100%',
-                      background: 'linear-gradient(90deg, #FF6B35 0%, #F7931E 100%)',
+                      background: 'var(--accent)',
                       borderRadius: '4px',
                       transition: 'width 0.3s ease'
                     }}></div>
@@ -665,7 +665,7 @@ export default function AboutUs() {
                     <div style={{
                       width: '99%',
                       height: '100%',
-                      background: 'linear-gradient(90deg, #FF6B35 0%, #F7931E 100%)',
+                      background: 'var(--accent)',
                       borderRadius: '4px',
                       transition: 'width 0.3s ease'
                     }}></div>
@@ -705,7 +705,7 @@ export default function AboutUs() {
                     <div style={{
                       width: '98%',
                       height: '100%',
-                      background: 'linear-gradient(90deg, #FF6B35 0%, #F7931E 100%)',
+                      background: 'var(--accent)',
                       borderRadius: '4px',
                       transition: 'width 0.3s ease'
                     }}></div>
@@ -767,7 +767,7 @@ export default function AboutUs() {
                   justifyContent: 'center',
                   boxShadow: '0 8px 24px rgba(0, 0, 0, 0.1)'
                 }}>
-                  <svg width="35" height="35" viewBox="0 0 24 24" fill="none" stroke="black" strokeWidth="2">
+                  <svg width="35" height="35" viewBox="0 0 24 24" fill="none" stroke="#6B7280" strokeWidth="2">
                     <path d="M12 2L2 7l10 5 10-5-10-5z"/>
                     <path d="M2 17l10 5 10-5"/>
                     <path d="M2 12l10 5 10-5"/>
@@ -829,7 +829,7 @@ export default function AboutUs() {
                   justifyContent: 'center',
                   boxShadow: '0 8px 24px rgba(0, 0, 0, 0.1)'
                 }}>
-                  <svg width="35" height="35" viewBox="0 0 24 24" fill="none" stroke="black" strokeWidth="2">
+                  <svg width="35" height="35" viewBox="0 0 24 24" fill="none" stroke="#6B7280" strokeWidth="2">
                     <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
                     <path d="M13 8H7"/>
                     <path d="M17 12H7"/>
@@ -893,7 +893,7 @@ export default function AboutUs() {
                   justifyContent: 'center',
                   boxShadow: '0 8px 24px rgba(0, 0, 0, 0.1)'
                 }}>
-                  <svg width="35" height="35" viewBox="0 0 24 24" fill="none" stroke="black" strokeWidth="2">
+                  <svg width="35" height="35" viewBox="0 0 24 24" fill="none" stroke="#6B7280" strokeWidth="2">
                     <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
                     <circle cx="12" cy="12" r="3"/>
                   </svg>
@@ -977,7 +977,7 @@ export default function AboutUs() {
                   justifyContent: 'center',
                   boxShadow: '0 6px 20px rgba(0, 0, 0, 0.1)'
                 }}>
-                  <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="black" strokeWidth="2">
+                  <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#6B7280" strokeWidth="2">
                     <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
                   </svg>
                 </div>
@@ -1029,7 +1029,7 @@ export default function AboutUs() {
                   justifyContent: 'center',
                   boxShadow: '0 6px 20px rgba(0, 0, 0, 0.1)'
                 }}>
-                  <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="black" strokeWidth="2">
+                  <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#6B7280" strokeWidth="2">
                     <path d="M9 12l2 2 4-4"/>
                     <path d="M21 12c.552 0 1-.448 1-1V5c0-.552-.448-1-1-1H3c-.552 0-1 .448-1 1v6c0 .552.448 1 1 1h18z"/>
                     <path d="M3 12v6c0 .552.448 1 1 1h16c.552 0 1-.448 1-1v-6"/>
@@ -1083,7 +1083,7 @@ export default function AboutUs() {
                   justifyContent: 'center',
                   boxShadow: '0 6px 20px rgba(0, 0, 0, 0.1)'
                 }}>
-                  <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="black" strokeWidth="2">
+                  <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#6B7280" strokeWidth="2">
                     <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
                     <path d="M13 8H7"/>
                     <path d="M17 12H7"/>
@@ -1137,7 +1137,7 @@ export default function AboutUs() {
                   justifyContent: 'center',
                   boxShadow: '0 6px 20px rgba(0, 0, 0, 0.1)'
                 }}>
-                  <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="black" strokeWidth="2">
+                  <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#6B7280" strokeWidth="2">
                     <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
                     <circle cx="9" cy="7" r="4"/>
                     <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
@@ -1192,7 +1192,7 @@ export default function AboutUs() {
                   justifyContent: 'center',
                   boxShadow: '0 6px 20px rgba(0, 0, 0, 0.1)'
                 }}>
-                  <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="black" strokeWidth="2">
+                  <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#6B7280" strokeWidth="2">
                     <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/>
                     <polyline points="3.27,6.96 12,12.01 20.73,6.96"/>
                     <line x1="12" y1="22.08" x2="12" y2="12"/>
@@ -1246,7 +1246,7 @@ export default function AboutUs() {
                   justifyContent: 'center',
                   boxShadow: '0 6px 20px rgba(0, 0, 0, 0.1)'
                 }}>
-                  <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="black" strokeWidth="2">
+                  <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#6B7280" strokeWidth="2">
                     <circle cx="12" cy="12" r="10"/>
                     <path d="M2 12h20"/>
                     <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
@@ -1342,7 +1342,7 @@ export default function AboutUs() {
                 justifyContent: 'center',
                 boxShadow: '0 8px 25px rgba(0, 0, 0, 0.1)'
               }}>
-                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="black" strokeWidth="2">
+                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#6B7280" strokeWidth="2">
                   <path d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 1 1 7.072 0l-.548.547A3.374 3.374 0 0 0 14 18.469V19a2 2 0 1 1-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/>
                 </svg>
               </div>
@@ -1385,7 +1385,7 @@ export default function AboutUs() {
                 justifyContent: 'center',
                 boxShadow: '0 8px 25px rgba(0, 0, 0, 0.1)'
               }}>
-                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="black" strokeWidth="2">
+                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#6B7280" strokeWidth="2">
                   <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
                   <circle cx="9" cy="7" r="4"/>
                   <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
@@ -1431,7 +1431,7 @@ export default function AboutUs() {
                 justifyContent: 'center',
                 boxShadow: '0 8px 25px rgba(0, 0, 0, 0.1)'
               }}>
-                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="black" strokeWidth="2">
+                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#6B7280" strokeWidth="2">
                   <polygon points="13,2 3,14 12,14 11,22 21,10 12,10 13,2"/>
                 </svg>
               </div>
@@ -1474,7 +1474,7 @@ export default function AboutUs() {
                 justifyContent: 'center',
                 boxShadow: '0 8px 25px rgba(0, 0, 0, 0.1)'
               }}>
-                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="black" strokeWidth="2">
+                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#6B7280" strokeWidth="2">
                   <circle cx="12" cy="12" r="10"/>
                   <path d="M8 14s1.5 2 4 2 4-2 4-2"/>
                   <line x1="9" y1="9" x2="9.01" y2="9"/>
