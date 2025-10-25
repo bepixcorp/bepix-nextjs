@@ -23,7 +23,8 @@ export default function Navigation() {
           padding: '1.25rem 0',
           maxWidth: '1200px',
           margin: '0 auto',
-          width: '100%'
+          width: '100%',
+          position: 'relative'
         }}>
           <Link href="/" style={{
             textDecoration: 'none',
@@ -130,19 +131,22 @@ export default function Navigation() {
         {/* Mobile Menu */}
         {isMenuOpen && (
           <div style={{ 
-            display: 'block', 
-            padding: '1rem 0', 
-            borderTop: '1px solid rgba(0, 0, 0, 0.1)',
+            position: 'absolute',
+            top: '100%',
+            left: '0',
+            right: '0',
             background: 'white',
             boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)',
-            width: '100%'
+            zIndex: '1000',
+            width: '100vw',
+            marginLeft: 'calc(-50vw + 50%)'
           }}>
             <div style={{ 
               display: 'flex', 
               flexDirection: 'column', 
-              gap: '1rem',
+              gap: '0',
               width: '100%',
-              padding: '0 1rem'
+              padding: '1rem'
             }}>
               {/* Mobile Menu Header */}
               <div style={{
