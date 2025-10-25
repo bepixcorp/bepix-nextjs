@@ -86,7 +86,7 @@ export default function Services() {
               <div style={{ 
                 width: '80px', 
                 height: '80px', 
-                background: 'linear-gradient(135deg, #FCB03A 0%, #FF7426 100%)',
+                     background: 'linear-gradient(135deg, #3B82F6 0%, #8B5CF6 50%, #EC4899 100%)',
                 borderRadius: '20px',
                 margin: '0 auto 1.5rem',
                 display: 'flex',
@@ -129,7 +129,7 @@ export default function Services() {
               <div style={{ 
                 width: '80px', 
                 height: '80px', 
-                background: 'linear-gradient(135deg, #FCB03A 0%, #FF7426 100%)',
+                     background: 'linear-gradient(135deg, #10B981 0%, #3B82F6 50%, #8B5CF6 100%)',
                 borderRadius: '20px',
                 margin: '0 auto 1.5rem',
                 display: 'flex',
@@ -174,7 +174,7 @@ export default function Services() {
               <div style={{ 
                 width: '80px', 
                 height: '80px', 
-                background: 'linear-gradient(135deg, #FCB03A 0%, #FF7426 100%)',
+                     background: 'linear-gradient(135deg, #8B5CF6 0%, #EC4899 50%, #F97316 100%)',
                 borderRadius: '20px',
                 margin: '0 auto 1.5rem',
                 display: 'flex',
@@ -219,7 +219,7 @@ export default function Services() {
               <div style={{ 
                 width: '80px', 
                 height: '80px', 
-                background: 'linear-gradient(135deg, #FCB03A 0%, #FF7426 100%)',
+                     background: 'linear-gradient(135deg, #8B5CF6 0%, #EC4899 50%, #F97316 100%)',
                 borderRadius: '20px',
                 margin: '0 auto 1.5rem',
                 display: 'flex',
@@ -264,7 +264,7 @@ export default function Services() {
               <div style={{ 
                 width: '80px', 
                 height: '80px', 
-                background: 'linear-gradient(135deg, #FCB03A 0%, #FF7426 100%)',
+                     background: 'linear-gradient(135deg, #8B5CF6 0%, #EC4899 50%, #F97316 100%)',
                 borderRadius: '20px',
                 margin: '0 auto 1.5rem',
                 display: 'flex',
@@ -337,7 +337,7 @@ export default function Services() {
               <div style={{ 
                 width: '80px', 
                 height: '80px', 
-                background: 'linear-gradient(135deg, #FCB03A 0%, #FF7426 100%)',
+                     background: 'linear-gradient(135deg, #8B5CF6 0%, #EC4899 50%, #F97316 100%)',
                 borderRadius: '20px',
                 margin: '0 auto 1.5rem',
                 display: 'flex',
@@ -381,7 +381,7 @@ export default function Services() {
               <div style={{ 
                 width: '80px', 
                 height: '80px', 
-                background: 'linear-gradient(135deg, #FCB03A 0%, #FF7426 100%)',
+                     background: 'linear-gradient(135deg, #8B5CF6 0%, #EC4899 50%, #F97316 100%)',
                 borderRadius: '20px',
                 margin: '0 auto 1.5rem',
                 display: 'flex',
@@ -424,7 +424,7 @@ export default function Services() {
               <div style={{ 
                 width: '80px', 
                 height: '80px', 
-                background: 'linear-gradient(135deg, #FCB03A 0%, #FF7426 100%)',
+                     background: 'linear-gradient(135deg, #8B5CF6 0%, #EC4899 50%, #F97316 100%)',
                 borderRadius: '20px',
                 margin: '0 auto 1.5rem',
                 display: 'flex',
@@ -469,7 +469,7 @@ export default function Services() {
               <div style={{ 
                 width: '80px', 
                 height: '80px', 
-                background: 'linear-gradient(135deg, #FCB03A 0%, #FF7426 100%)',
+                     background: 'linear-gradient(135deg, #8B5CF6 0%, #EC4899 50%, #F97316 100%)',
                 borderRadius: '20px',
                 margin: '0 auto 1.5rem',
                 display: 'flex',
@@ -513,7 +513,7 @@ export default function Services() {
               <div style={{ 
                 width: '80px', 
                 height: '80px', 
-                background: 'linear-gradient(135deg, #FCB03A 0%, #FF7426 100%)',
+                     background: 'linear-gradient(135deg, #8B5CF6 0%, #EC4899 50%, #F97316 100%)',
                 borderRadius: '20px',
                 margin: '0 auto 1.5rem',
                 display: 'flex',
@@ -585,7 +585,7 @@ export default function Services() {
               <div style={{ 
                 width: '80px', 
                 height: '80px', 
-                background: 'linear-gradient(135deg, #FCB03A 0%, #FF7426 100%)',
+                     background: 'linear-gradient(135deg, #8B5CF6 0%, #EC4899 50%, #F97316 100%)',
                 borderRadius: '20px',
                 margin: '0 auto 1.5rem',
                 display: 'flex',
@@ -629,7 +629,7 @@ export default function Services() {
               <div style={{ 
                 width: '80px', 
                 height: '80px', 
-                background: 'linear-gradient(135deg, #FCB03A 0%, #FF7426 100%)',
+                     background: 'linear-gradient(135deg, #8B5CF6 0%, #EC4899 50%, #F97316 100%)',
                 borderRadius: '20px',
                 margin: '0 auto 1.5rem',
                 display: 'flex',
@@ -672,7 +672,7 @@ export default function Services() {
               <div style={{ 
                 width: '80px', 
                 height: '80px', 
-                background: 'linear-gradient(135deg, #FCB03A 0%, #FF7426 100%)',
+                     background: 'linear-gradient(135deg, #8B5CF6 0%, #EC4899 50%, #F97316 100%)',
                 borderRadius: '20px',
                 margin: '0 auto 1.5rem',
                 display: 'flex',
@@ -719,7 +719,7 @@ export default function Services() {
               <div style={{ 
                 width: '80px', 
                 height: '80px', 
-                background: 'linear-gradient(135deg, #FCB03A 0%, #FF7426 100%)',
+                     background: 'linear-gradient(135deg, #8B5CF6 0%, #EC4899 50%, #F97316 100%)',
                 borderRadius: '20px',
                 margin: '0 auto 1.5rem',
                 display: 'flex',
@@ -763,7 +763,7 @@ export default function Services() {
               <div style={{ 
                 width: '80px', 
                 height: '80px', 
-                background: 'linear-gradient(135deg, #FCB03A 0%, #FF7426 100%)',
+                     background: 'linear-gradient(135deg, #8B5CF6 0%, #EC4899 50%, #F97316 100%)',
                 borderRadius: '20px',
                 margin: '0 auto 1.5rem',
                 display: 'flex',
@@ -836,7 +836,7 @@ export default function Services() {
               <div style={{ 
                 width: '80px', 
                 height: '80px', 
-                background: 'linear-gradient(135deg, #FCB03A 0%, #FF7426 100%)',
+                     background: 'linear-gradient(135deg, #8B5CF6 0%, #EC4899 50%, #F97316 100%)',
                 borderRadius: '20px',
                 margin: '0 auto 1.5rem',
                 display: 'flex',
@@ -879,7 +879,7 @@ export default function Services() {
               <div style={{ 
                 width: '80px', 
                 height: '80px', 
-                background: 'linear-gradient(135deg, #FCB03A 0%, #FF7426 100%)',
+                     background: 'linear-gradient(135deg, #8B5CF6 0%, #EC4899 50%, #F97316 100%)',
                 borderRadius: '20px',
                 margin: '0 auto 1.5rem',
                 display: 'flex',
@@ -922,7 +922,7 @@ export default function Services() {
               <div style={{ 
                 width: '80px', 
                 height: '80px', 
-                background: 'linear-gradient(135deg, #FCB03A 0%, #FF7426 100%)',
+                     background: 'linear-gradient(135deg, #8B5CF6 0%, #EC4899 50%, #F97316 100%)',
                 borderRadius: '20px',
                 margin: '0 auto 1.5rem',
                 display: 'flex',
@@ -967,7 +967,7 @@ export default function Services() {
               <div style={{ 
                 width: '80px', 
                 height: '80px', 
-                background: 'linear-gradient(135deg, #FCB03A 0%, #FF7426 100%)',
+                     background: 'linear-gradient(135deg, #8B5CF6 0%, #EC4899 50%, #F97316 100%)',
                 borderRadius: '20px',
                 margin: '0 auto 1.5rem',
                 display: 'flex',

@@ -92,7 +92,7 @@ export default function Home() {
                   <div style={{ 
                     width: '80px', 
                     height: '80px', 
-                     background: 'linear-gradient(135deg, #FCB03A 0%, #FF7426 100%)',
+                     background: 'linear-gradient(135deg, #3B82F6 0%, #8B5CF6 50%, #EC4899 100%)',
                     borderRadius: '20px',
                     margin: '0 auto 1rem',
                     display: 'flex',
@@ -131,7 +131,7 @@ export default function Home() {
                   <div style={{ 
                     width: '80px', 
                     height: '80px', 
-                     background: 'linear-gradient(135deg, #FCB03A 0%, #FF7426 100%)',
+                     background: 'linear-gradient(135deg, #F59E0B 0%, #EC4899 50%, #8B5CF6 100%)',
                     borderRadius: '20px',
                     margin: '0 auto 1rem',
                     display: 'flex',
@@ -169,7 +169,7 @@ export default function Home() {
                   <div style={{ 
                     width: '80px', 
                     height: '80px', 
-                     background: 'linear-gradient(135deg, #FCB03A 0%, #FF7426 100%)',
+                     background: 'linear-gradient(135deg, #10B981 0%, #3B82F6 50%, #8B5CF6 100%)',
                     borderRadius: '20px',
                     margin: '0 auto 1rem',
                     display: 'flex',
@@ -207,7 +207,7 @@ export default function Home() {
                   <div style={{ 
                     width: '80px', 
                     height: '80px', 
-                     background: 'linear-gradient(135deg, #FCB03A 0%, #FF7426 100%)',
+                     background: 'linear-gradient(135deg, #EC4899 0%, #F97316 50%, #F59E0B 100%)',
                     borderRadius: '20px',
                     margin: '0 auto 1rem',
                     display: 'flex',
@@ -221,8 +221,8 @@ export default function Home() {
                   </div>
                   <div style={{ fontSize: '2rem', fontWeight: '700', color: 'var(--accent)', marginBottom: '0.5rem' }}>10+</div>
                   <div style={{ fontSize: '0.875rem', color: 'var(--text-secondary)' }}>Digital Marketers</div>
-                </div>
               </div>
+            </div>
           </div>
         </div>
       </section>
@@ -278,7 +278,7 @@ export default function Home() {
                 <div style={{ 
                   width: '80px', 
                   height: '80px', 
-                  background: 'linear-gradient(135deg, #FCB03A 0%, #FF7426 100%)',
+                  background: 'linear-gradient(135deg, #3B82F6 0%, #1D4ED8 100%)',
                   borderRadius: '20px',
                   margin: '0 auto 1.5rem',
                   display: 'flex',
@@ -319,7 +319,7 @@ export default function Home() {
                 <div style={{ 
                   width: '80px', 
                   height: '80px', 
-                  background: 'linear-gradient(135deg, #FCB03A 0%, #FF7426 100%)',
+                  background: 'linear-gradient(135deg, #3B82F6 0%, #8B5CF6 50%, #EC4899 100%)',
                   borderRadius: '20px',
                   margin: '0 auto 1.5rem',
                   display: 'flex',
@@ -362,7 +362,7 @@ export default function Home() {
                 <div style={{ 
                   width: '80px', 
                   height: '80px', 
-                  background: 'linear-gradient(135deg, #FCB03A 0%, #FF7426 100%)',
+                  background: 'linear-gradient(135deg, #EC4899 0%, #BE185D 100%)',
                   borderRadius: '20px',
                   margin: '0 auto 1.5rem',
                   display: 'flex',
@@ -405,7 +405,7 @@ export default function Home() {
                 <div style={{ 
                   width: '80px', 
                   height: '80px', 
-                  background: 'linear-gradient(135deg, #FCB03A 0%, #FF7426 100%)',
+                  background: 'linear-gradient(135deg, #F59E0B 0%, #D97706 100%)',
                   borderRadius: '20px',
                   margin: '0 auto 1.5rem',
                   display: 'flex',
@@ -447,7 +447,7 @@ export default function Home() {
                 <div style={{ 
                   width: '80px', 
                   height: '80px', 
-                  background: 'linear-gradient(135deg, #FCB03A 0%, #FF7426 100%)',
+                  background: 'linear-gradient(135deg, #8B5CF6 0%, #7C3AED 100%)',
                   borderRadius: '20px',
                   margin: '0 auto 1.5rem',
                   display: 'flex',
@@ -490,7 +490,7 @@ export default function Home() {
                 <div style={{ 
                   width: '80px', 
                   height: '80px', 
-                  background: 'linear-gradient(135deg, #FCB03A 0%, #FF7426 100%)',
+                  background: 'linear-gradient(135deg, #06B6D4 0%, #0891B2 100%)',
                   borderRadius: '20px',
                   margin: '0 auto 1.5rem',
                   display: 'flex',
@@ -563,7 +563,7 @@ export default function Home() {
               <div style={{ 
                 width: '80px', 
                 height: '80px', 
-                     background: 'linear-gradient(135deg, #FCB03A 0%, #FF7426 100%)',
+                     background: 'linear-gradient(135deg, #F59E0B 0%, #EC4899 50%, #8B5CF6 100%)',
                 borderRadius: '20px',
                 margin: '0 auto 1.5rem',
                 display: 'flex',
@@ -606,7 +606,7 @@ export default function Home() {
               <div style={{ 
                 width: '80px', 
                 height: '80px', 
-                     background: 'linear-gradient(135deg, #FCB03A 0%, #FF7426 100%)',
+                     background: 'linear-gradient(135deg, #3B82F6 0%, #8B5CF6 50%, #EC4899 100%)',
                 borderRadius: '20px',
                 margin: '0 auto 1.5rem',
                 display: 'flex',
@@ -690,7 +690,7 @@ export default function Home() {
               <div style={{ 
                 width: '80px', 
                 height: '80px', 
-                     background: 'linear-gradient(135deg, #FCB03A 0%, #FF7426 100%)',
+                     background: 'linear-gradient(135deg, #8B5CF6 0%, #EC4899 100%)',
                 borderRadius: '20px',
                 margin: '0 auto 1.5rem',
                 display: 'flex',

@@ -132,7 +132,7 @@ export default function Work() {
               <div style={{ 
                 width: '80px', 
                 height: '80px', 
-                background: 'linear-gradient(135deg, #FCB03A 0%, #FF7426 100%)',
+                     background: 'linear-gradient(135deg, #EC4899 0%, #F97316 50%, #F59E0B 100%)',
                 borderRadius: '20px',
                 margin: '0 auto 1.5rem',
                 display: 'flex',
@@ -176,7 +176,7 @@ export default function Work() {
               <div style={{ 
                 width: '80px', 
                 height: '80px', 
-                background: 'linear-gradient(135deg, #FCB03A 0%, #FF7426 100%)',
+                     background: 'linear-gradient(135deg, #EC4899 0%, #F97316 50%, #F59E0B 100%)',
                 borderRadius: '20px',
                 margin: '0 auto 1.5rem',
                 display: 'flex',
@@ -220,7 +220,7 @@ export default function Work() {
               <div style={{ 
                 width: '80px', 
                 height: '80px', 
-                background: 'linear-gradient(135deg, #FCB03A 0%, #FF7426 100%)',
+                     background: 'linear-gradient(135deg, #EC4899 0%, #F97316 50%, #F59E0B 100%)',
                 borderRadius: '20px',
                 margin: '0 auto 1.5rem',
                 display: 'flex',
@@ -282,7 +282,7 @@ export default function Work() {
               <div style={{ 
                 width: '80px', 
                 height: '80px', 
-                background: 'linear-gradient(135deg, #FCB03A 0%, #FF7426 100%)',
+                     background: 'linear-gradient(135deg, #EC4899 0%, #F97316 50%, #F59E0B 100%)',
                 borderRadius: '20px',
                 margin: '0 auto 1.5rem',
                 display: 'flex',
@@ -325,7 +325,7 @@ export default function Work() {
               <div style={{ 
                 width: '80px', 
                 height: '80px', 
-                background: 'linear-gradient(135deg, #FCB03A 0%, #FF7426 100%)',
+                     background: 'linear-gradient(135deg, #EC4899 0%, #F97316 50%, #F59E0B 100%)',
                 borderRadius: '20px',
                 margin: '0 auto 1.5rem',
                 display: 'flex',
@@ -370,7 +370,7 @@ export default function Work() {
               <div style={{ 
                 width: '80px', 
                 height: '80px', 
-                background: 'linear-gradient(135deg, #FCB03A 0%, #FF7426 100%)',
+                     background: 'linear-gradient(135deg, #EC4899 0%, #F97316 50%, #F59E0B 100%)',
                 borderRadius: '20px',
                 margin: '0 auto 1.5rem',
                 display: 'flex',
@@ -414,7 +414,7 @@ export default function Work() {
               <div style={{
                 width: '80px',
                 height: '80px',
-                background: 'linear-gradient(135deg, #FCB03A 0%, #FF7426 100%)',
+                     background: 'linear-gradient(135deg, #EC4899 0%, #F97316 50%, #F59E0B 100%)',
                 color: 'white',
                 borderRadius: '50%',
                 display: 'flex',
@@ -441,7 +441,7 @@ export default function Work() {
               <div style={{
                 width: '80px',
                 height: '80px',
-                background: 'linear-gradient(135deg, #FCB03A 0%, #FF7426 100%)',
+                     background: 'linear-gradient(135deg, #EC4899 0%, #F97316 50%, #F59E0B 100%)',
                 color: 'white',
                 borderRadius: '50%',
                 display: 'flex',
@@ -467,7 +467,7 @@ export default function Work() {
               <div style={{
                 width: '80px',
                 height: '80px',
-                background: 'linear-gradient(135deg, #FCB03A 0%, #FF7426 100%)',
+                     background: 'linear-gradient(135deg, #EC4899 0%, #F97316 50%, #F59E0B 100%)',
                 color: 'white',
                 borderRadius: '50%',
                 display: 'flex',
@@ -492,7 +492,7 @@ export default function Work() {
               <div style={{
                 width: '80px',
                 height: '80px',
-                background: 'linear-gradient(135deg, #FCB03A 0%, #FF7426 100%)',
+                     background: 'linear-gradient(135deg, #EC4899 0%, #F97316 50%, #F59E0B 100%)',
                 color: 'white',
                 borderRadius: '50%',
                 display: 'flex',

@@ -120,17 +120,17 @@ export default function AboutUs() {
                 e.currentTarget.style.boxShadow = '0 4px 20px rgba(0, 0, 0, 0.08)';
               }}>
                 <div style={{ 
-                  width: '60px', 
-                  height: '60px', 
-                  background: 'linear-gradient(135deg, #FCB03A 0%, #FF7426 100%)',
-                  borderRadius: '16px',
-                  marginBottom: '1.5rem',
+                  width: '80px', 
+                  height: '80px', 
+                  background: 'linear-gradient(135deg, #3B82F6 0%, #8B5CF6 50%, #EC4899 100%)',
+                  borderRadius: '20px',
+                  margin: '0 auto 1.5rem',
                   display: 'flex',
                   alignItems: 'center',
                   justifyContent: 'center',
-                  boxShadow: '0 6px 20px rgba(0, 0, 0, 0.1)'
+                  boxShadow: '0 8px 25px rgba(0, 0, 0, 0.1)'
                 }}>
-                  <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2">
+                  <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2">
                     <circle cx="12" cy="12" r="10"/>
                     <polyline points="12,6 12,12 16,14"/>
                   </svg>
@@ -161,17 +161,17 @@ export default function AboutUs() {
                 e.currentTarget.style.boxShadow = '0 4px 20px rgba(0, 0, 0, 0.08)';
               }}>
                 <div style={{ 
-                  width: '60px', 
-                  height: '60px', 
-                  background: 'linear-gradient(135deg, #FCB03A 0%, #FF7426 100%)',
-                  borderRadius: '16px',
-                  marginBottom: '1.5rem',
+                  width: '80px', 
+                  height: '80px', 
+                  background: 'linear-gradient(135deg, #10B981 0%, #3B82F6 50%, #8B5CF6 100%)',
+                  borderRadius: '20px',
+                  margin: '0 auto 1.5rem',
                   display: 'flex',
                   alignItems: 'center',
                   justifyContent: 'center',
-                  boxShadow: '0 6px 20px rgba(0, 0, 0, 0.1)'
+                  boxShadow: '0 8px 25px rgba(0, 0, 0, 0.1)'
                 }}>
-                  <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2">
+                  <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2">
                     <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
                     <path d="M8 12l2 2 4-4"/>
                   </svg>
@@ -202,17 +202,17 @@ export default function AboutUs() {
                 e.currentTarget.style.boxShadow = '0 4px 20px rgba(0, 0, 0, 0.08)';
               }}>
                 <div style={{ 
-                  width: '60px', 
-                  height: '60px', 
-                  background: 'linear-gradient(135deg, #FCB03A 0%, #FF7426 100%)',
-                  borderRadius: '16px',
-                  marginBottom: '1.5rem',
+                  width: '80px', 
+                  height: '80px', 
+                  background: 'linear-gradient(135deg, #EC4899 0%, #F97316 50%, #F59E0B 100%)',
+                  borderRadius: '20px',
+                  margin: '0 auto 1.5rem',
                   display: 'flex',
                   alignItems: 'center',
                   justifyContent: 'center',
-                  boxShadow: '0 6px 20px rgba(0, 0, 0, 0.1)'
+                  boxShadow: '0 8px 25px rgba(0, 0, 0, 0.1)'
                 }}>
-                  <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2">
+                  <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2">
                     <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
                     <circle cx="9" cy="7" r="4"/>
                     <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
@@ -245,18 +245,18 @@ export default function AboutUs() {
                 e.currentTarget.style.boxShadow = '0 4px 20px rgba(0, 0, 0, 0.08)';
               }}>
                 <div style={{ 
-                  width: '60px', 
-                  height: '60px', 
-                  background: 'linear-gradient(135deg, #FCB03A 0%, #FF7426 100%)',
-                  borderRadius: '16px',
-                  marginBottom: '1.5rem',
+                  width: '80px', 
+                  height: '80px', 
+                  background: 'linear-gradient(135deg, #10B981 0%, #3B82F6 50%, #8B5CF6 100%)',
+                  borderRadius: '20px',
+                  margin: '0 auto 1.5rem',
                   display: 'flex',
                   alignItems: 'center',
                   justifyContent: 'center',
-                  boxShadow: '0 6px 20px rgba(67, 233, 123, 0.3)'
+                  boxShadow: '0 8px 25px rgba(0, 0, 0, 0.1)'
                 }}>
-                  <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2">
-                    <path d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 1 1 7.072 0l-.548.547A3.374 3.374 0 0 0 14 18.469V19a2 2 0 1 1-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/>
+                  <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2">
+                    <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/>
                   </svg>
                 </div>
                 <h3 style={{ fontSize: '1.25rem', fontWeight: '600', marginBottom: '1rem', color: 'var(--accent)' }}>
@@ -312,7 +312,7 @@ export default function AboutUs() {
                   fontSize: '4rem', 
                   fontWeight: '800', 
                   marginBottom: '1rem',
-                  background: 'linear-gradient(135deg, #FCB03A 0%, #FF7426 100%)',
+                  background: 'linear-gradient(135deg, #3B82F6 0%, #8B5CF6 50%, #EC4899 100%)',
                   WebkitBackgroundClip: 'text',
                   backgroundClip: 'text',
                   color: 'transparent'
@@ -361,7 +361,7 @@ export default function AboutUs() {
                   fontSize: '4rem', 
                   fontWeight: '800', 
                   marginBottom: '1rem',
-                  background: 'linear-gradient(135deg, #FCB03A 0%, #FF7426 100%)',
+                  background: 'linear-gradient(135deg, #10B981 0%, #3B82F6 50%, #8B5CF6 100%)',
                   WebkitBackgroundClip: 'text',
                   backgroundClip: 'text',
                   color: 'transparent'
@@ -410,7 +410,7 @@ export default function AboutUs() {
                   fontSize: '4rem', 
                   fontWeight: '800', 
                   marginBottom: '1rem',
-                  background: 'linear-gradient(135deg, #FCB03A 0%, #FF7426 100%)',
+                  background: 'linear-gradient(135deg, #EC4899 0%, #F97316 50%, #F59E0B 100%)',
                   WebkitBackgroundClip: 'text',
                   backgroundClip: 'text',
                   color: 'transparent'
@@ -515,7 +515,7 @@ export default function AboutUs() {
                     <div style={{
                       width: '98%',
                       height: '100%',
-                      background: 'linear-gradient(135deg, #FCB03A 0%, #FF7426 100%)',
+                      background: 'linear-gradient(135deg, #3B82F6 0%, #06B6D4 100%)',
                       borderRadius: '4px',
                       transition: 'width 0.3s ease'
                     }}></div>
@@ -555,7 +555,7 @@ export default function AboutUs() {
                     <div style={{
                       width: '99%',
                       height: '100%',
-                      background: 'linear-gradient(135deg, #FCB03A 0%, #FF7426 100%)',
+                      background: 'linear-gradient(135deg, #3B82F6 0%, #06B6D4 100%)',
                       borderRadius: '4px',
                       transition: 'width 0.3s ease'
                     }}></div>
@@ -595,7 +595,7 @@ export default function AboutUs() {
                     <div style={{
                       width: '100%',
                       height: '100%',
-                      background: 'linear-gradient(135deg, #FCB03A 0%, #FF7426 100%)',
+                      background: 'linear-gradient(135deg, #3B82F6 0%, #06B6D4 100%)',
                       borderRadius: '4px',
                       transition: 'width 0.3s ease'
                     }}></div>
@@ -635,7 +635,7 @@ export default function AboutUs() {
                     <div style={{
                       width: '99%',
                       height: '100%',
-                      background: 'linear-gradient(135deg, #FCB03A 0%, #FF7426 100%)',
+                      background: 'linear-gradient(135deg, #3B82F6 0%, #06B6D4 100%)',
                       borderRadius: '4px',
                       transition: 'width 0.3s ease'
                     }}></div>
@@ -675,7 +675,7 @@ export default function AboutUs() {
                     <div style={{
                       width: '99%',
                       height: '100%',
-                      background: 'linear-gradient(135deg, #FCB03A 0%, #FF7426 100%)',
+                      background: 'linear-gradient(135deg, #3B82F6 0%, #06B6D4 100%)',
                       borderRadius: '4px',
                       transition: 'width 0.3s ease'
                     }}></div>
@@ -715,7 +715,7 @@ export default function AboutUs() {
                     <div style={{
                       width: '98%',
                       height: '100%',
-                      background: 'linear-gradient(135deg, #FCB03A 0%, #FF7426 100%)',
+                      background: 'linear-gradient(135deg, #3B82F6 0%, #06B6D4 100%)',
                       borderRadius: '4px',
                       transition: 'width 0.3s ease'
                     }}></div>
@@ -769,7 +769,7 @@ export default function AboutUs() {
                 <div style={{ 
                   width: '70px', 
                   height: '70px', 
-                  background: 'linear-gradient(135deg, #FCB03A 0%, #FF7426 100%)',
+                  background: 'linear-gradient(135deg, #F59E0B 0%, #EC4899 50%, #8B5CF6 100%)',
                   borderRadius: '20px',
                   marginBottom: '1.5rem',
                   display: 'flex',
@@ -831,7 +831,7 @@ export default function AboutUs() {
                 <div style={{ 
                   width: '70px', 
                   height: '70px', 
-                  background: 'linear-gradient(135deg, #FCB03A 0%, #FF7426 100%)',
+                  background: 'linear-gradient(135deg, #F59E0B 0%, #EC4899 50%, #8B5CF6 100%)',
                   borderRadius: '20px',
                   marginBottom: '1.5rem',
                   display: 'flex',
@@ -895,7 +895,7 @@ export default function AboutUs() {
                 <div style={{ 
                   width: '70px', 
                   height: '70px', 
-                  background: 'linear-gradient(135deg, #FCB03A 0%, #FF7426 100%)',
+                  background: 'linear-gradient(135deg, #F59E0B 0%, #EC4899 50%, #8B5CF6 100%)',
                   borderRadius: '20px',
                   marginBottom: '1.5rem',
                   display: 'flex',
@@ -977,17 +977,17 @@ export default function AboutUs() {
                 e.currentTarget.style.boxShadow = '0 4px 20px rgba(0, 0, 0, 0.08)';
               }}>
                 <div style={{ 
-                  width: '60px', 
-                  height: '60px', 
-                  background: 'linear-gradient(135deg, #FCB03A 0%, #FF7426 100%)',
-                  borderRadius: '16px',
-                  marginBottom: '1.5rem',
+                  width: '80px', 
+                  height: '80px', 
+                  background: 'linear-gradient(135deg, #F59E0B 0%, #EC4899 50%, #8B5CF6 100%)',
+                  borderRadius: '20px',
+                  margin: '0 auto 1.5rem',
                   display: 'flex',
                   alignItems: 'center',
                   justifyContent: 'center',
-                  boxShadow: '0 6px 20px rgba(0, 0, 0, 0.1)'
+                  boxShadow: '0 8px 25px rgba(0, 0, 0, 0.1)'
                 }}>
-                  <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2">
+                  <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2">
                     <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
                   </svg>
                 </div>
@@ -1029,17 +1029,17 @@ export default function AboutUs() {
                 e.currentTarget.style.boxShadow = '0 4px 20px rgba(0, 0, 0, 0.08)';
               }}>
                 <div style={{ 
-                  width: '60px', 
-                  height: '60px', 
-                  background: 'linear-gradient(135deg, #FCB03A 0%, #FF7426 100%)',
-                  borderRadius: '16px',
-                  marginBottom: '1.5rem',
+                  width: '80px', 
+                  height: '80px', 
+                  background: 'linear-gradient(135deg, #F59E0B 0%, #EC4899 50%, #8B5CF6 100%)',
+                  borderRadius: '20px',
+                  margin: '0 auto 1.5rem',
                   display: 'flex',
                   alignItems: 'center',
                   justifyContent: 'center',
-                  boxShadow: '0 6px 20px rgba(0, 0, 0, 0.1)'
+                  boxShadow: '0 8px 25px rgba(0, 0, 0, 0.1)'
                 }}>
-                  <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2">
+                  <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2">
                     <path d="M9 12l2 2 4-4"/>
                     <path d="M21 12c.552 0 1-.448 1-1V5c0-.552-.448-1-1-1H3c-.552 0-1 .448-1 1v6c0 .552.448 1 1 1h18z"/>
                     <path d="M3 12v6c0 .552.448 1 1 1h16c.552 0 1-.448 1-1v-6"/>
@@ -1083,17 +1083,17 @@ export default function AboutUs() {
                 e.currentTarget.style.boxShadow = '0 4px 20px rgba(0, 0, 0, 0.08)';
               }}>
                 <div style={{ 
-                  width: '60px', 
-                  height: '60px', 
-                  background: 'linear-gradient(135deg, #FCB03A 0%, #FF7426 100%)',
-                  borderRadius: '16px',
-                  marginBottom: '1.5rem',
+                  width: '80px', 
+                  height: '80px', 
+                  background: 'linear-gradient(135deg, #F59E0B 0%, #EC4899 50%, #8B5CF6 100%)',
+                  borderRadius: '20px',
+                  margin: '0 auto 1.5rem',
                   display: 'flex',
                   alignItems: 'center',
                   justifyContent: 'center',
-                  boxShadow: '0 6px 20px rgba(0, 0, 0, 0.1)'
+                  boxShadow: '0 8px 25px rgba(0, 0, 0, 0.1)'
                 }}>
-                  <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2">
+                  <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2">
                     <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
                     <path d="M13 8H7"/>
                     <path d="M17 12H7"/>
@@ -1137,17 +1137,17 @@ export default function AboutUs() {
                 e.currentTarget.style.boxShadow = '0 4px 20px rgba(0, 0, 0, 0.08)';
               }}>
                 <div style={{ 
-                  width: '60px', 
-                  height: '60px', 
-                  background: 'linear-gradient(135deg, #FCB03A 0%, #FF7426 100%)',
-                  borderRadius: '16px',
-                  marginBottom: '1.5rem',
+                  width: '80px', 
+                  height: '80px', 
+                  background: 'linear-gradient(135deg, #F59E0B 0%, #EC4899 50%, #8B5CF6 100%)',
+                  borderRadius: '20px',
+                  margin: '0 auto 1.5rem',
                   display: 'flex',
                   alignItems: 'center',
                   justifyContent: 'center',
-                  boxShadow: '0 6px 20px rgba(0, 0, 0, 0.1)'
+                  boxShadow: '0 8px 25px rgba(0, 0, 0, 0.1)'
                 }}>
-                  <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2">
+                  <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2">
                     <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
                     <circle cx="9" cy="7" r="4"/>
                     <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
@@ -1192,17 +1192,17 @@ export default function AboutUs() {
                 e.currentTarget.style.boxShadow = '0 4px 20px rgba(0, 0, 0, 0.08)';
               }}>
                 <div style={{ 
-                  width: '60px', 
-                  height: '60px', 
-                  background: 'linear-gradient(135deg, #FCB03A 0%, #FF7426 100%)',
-                  borderRadius: '16px',
-                  marginBottom: '1.5rem',
+                  width: '80px', 
+                  height: '80px', 
+                  background: 'linear-gradient(135deg, #F59E0B 0%, #EC4899 50%, #8B5CF6 100%)',
+                  borderRadius: '20px',
+                  margin: '0 auto 1.5rem',
                   display: 'flex',
                   alignItems: 'center',
                   justifyContent: 'center',
-                  boxShadow: '0 6px 20px rgba(0, 0, 0, 0.1)'
+                  boxShadow: '0 8px 25px rgba(0, 0, 0, 0.1)'
                 }}>
-                  <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2">
+                  <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2">
                     <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/>
                     <polyline points="3.27,6.96 12,12.01 20.73,6.96"/>
                     <line x1="12" y1="22.08" x2="12" y2="12"/>
@@ -1246,17 +1246,17 @@ export default function AboutUs() {
                 e.currentTarget.style.boxShadow = '0 4px 20px rgba(0, 0, 0, 0.08)';
               }}>
                 <div style={{ 
-                  width: '60px', 
-                  height: '60px', 
-                  background: 'linear-gradient(135deg, #FCB03A 0%, #FF7426 100%)',
-                  borderRadius: '16px',
-                  marginBottom: '1.5rem',
+                  width: '80px', 
+                  height: '80px', 
+                  background: 'linear-gradient(135deg, #F59E0B 0%, #EC4899 50%, #8B5CF6 100%)',
+                  borderRadius: '20px',
+                  margin: '0 auto 1.5rem',
                   display: 'flex',
                   alignItems: 'center',
                   justifyContent: 'center',
-                  boxShadow: '0 6px 20px rgba(0, 0, 0, 0.1)'
+                  boxShadow: '0 8px 25px rgba(0, 0, 0, 0.1)'
                 }}>
-                  <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2">
+                  <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2">
                     <circle cx="12" cy="12" r="10"/>
                     <path d="M2 12h20"/>
                     <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
