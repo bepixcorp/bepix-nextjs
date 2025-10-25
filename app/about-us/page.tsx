@@ -246,7 +246,7 @@ export default function AboutUs() {
                 <div style={{ 
                   width: '60px', 
                   height: '60px', 
-                  background: 'linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)',
+                  background: '#C6FB50',
                   borderRadius: '16px',
                   marginBottom: '1.5rem',
                   display: 'flex',
@@ -1177,7 +1177,7 @@ export default function AboutUs() {
               <div style={{ 
                 width: '80px', 
                 height: '80px', 
-                background: 'linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)',
+                background: '#C6FB50',
                 borderRadius: '20px',
                 margin: '0 auto 1.5rem',
                 display: 'flex',
