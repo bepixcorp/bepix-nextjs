@@ -47,7 +47,7 @@ export default function AboutUs() {
               marginBottom: '2rem',
               color: 'var(--accent)',
             }}>
-              The Best Digital Marketing Agency in Tamil Nadu
+              The Best Creative Agency in Tamil Nadu
             </h2>
             <p style={{
               fontSize: '1.25rem',
@@ -471,7 +471,7 @@ export default function AboutUs() {
                 Our Expertise
               </h3>
               
-              <div style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
+              <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '2rem' }}>
                 {/* Digital Marketing */}
                 <div>
                   <div style={{
@@ -505,7 +505,7 @@ export default function AboutUs() {
                     <div style={{
                       width: '98%',
                       height: '100%',
-                      background: 'var(--accent)',
+                      background: 'var(--secondary)',
                       borderRadius: '4px',
                       transition: 'width 0.3s ease'
                     }}></div>
@@ -545,7 +545,7 @@ export default function AboutUs() {
                     <div style={{
                       width: '99%',
                       height: '100%',
-                      background: 'var(--accent)',
+                      background: 'var(--secondary)',
                       borderRadius: '4px',
                       transition: 'width 0.3s ease'
                     }}></div>
@@ -585,7 +585,7 @@ export default function AboutUs() {
                     <div style={{
                       width: '100%',
                       height: '100%',
-                      background: 'var(--accent)',
+                      background: 'var(--secondary)',
                       borderRadius: '4px',
                       transition: 'width 0.3s ease'
                     }}></div>
@@ -625,7 +625,7 @@ export default function AboutUs() {
                     <div style={{
                       width: '99%',
                       height: '100%',
-                      background: 'var(--accent)',
+                      background: 'var(--secondary)',
                       borderRadius: '4px',
                       transition: 'width 0.3s ease'
                     }}></div>
@@ -665,7 +665,7 @@ export default function AboutUs() {
                     <div style={{
                       width: '99%',
                       height: '100%',
-                      background: 'var(--accent)',
+                      background: 'var(--secondary)',
                       borderRadius: '4px',
                       transition: 'width 0.3s ease'
                     }}></div>
@@ -705,7 +705,7 @@ export default function AboutUs() {
                     <div style={{
                       width: '98%',
                       height: '100%',
-                      background: 'var(--accent)',
+                      background: 'var(--secondary)',
                       borderRadius: '4px',
                       transition: 'width 0.3s ease'
                     }}></div>
