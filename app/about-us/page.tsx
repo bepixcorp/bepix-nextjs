@@ -70,47 +70,6 @@ export default function AboutUs() {
         </div>
       </section>
 
-      {/* Section 2: The Bepix Group */}
-      <section style={{ padding: '100px 0', background: '#F8F7F5' }}>
-        <div className="container">
-          <div style={{ maxWidth: '900px', margin: '0 auto', textAlign: 'center', padding: '0 2rem' }}>
-            <h2 style={{
-              fontSize: '2.5rem',
-              fontWeight: '700',
-              marginBottom: '2rem',
-              color: 'var(--accent)',
-            }}>
-              The Bepix Group
-            </h2>
-            <p style={{
-              fontSize: '1.25rem',
-              color: 'var(--text-secondary)',
-              lineHeight: '1.6',
-              marginBottom: '2rem'
-            }}>
-              At Bepix, innovation and excellence are at the heart of everything we do.
-              With over 7 years of hands-on experience, we've built a strong reputation for delivering top-tier creative and digital solutions that drive success across industries.
-            </p>
-            <p style={{
-              fontSize: '1.125rem',
-              color: 'var(--text-secondary)',
-              lineHeight: '1.6',
-              marginBottom: '2rem'
-            }}>
-              Our journey began as Bepix Creative Studio, a passionate digital and design agency. Over time, our expertise and success have propelled us into new ventures, expanding into technology, media production, and international collaborations.
-            </p>
-            <p style={{
-              fontSize: '1.125rem',
-              color: 'var(--text-secondary)',
-              lineHeight: '1.6',
-              maxWidth: '800px',
-              margin: '0 auto'
-            }}>
-              Built on a foundation of creativity, quality, and client trust, Bepix Group continues to push the boundaries of what's possible — crafting experiences that inspire, connect, and grow brands worldwide.
-            </p>
-          </div>
-        </div>
-      </section>
 
       {/* Section 3: Our Commitment */}
       <section style={{ padding: '100px 0', background: 'white' }}>
